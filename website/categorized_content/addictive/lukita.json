@@ -1,0 +1,195 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-lukita",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-lukita",
+                     "title":  "Addictive Lukita – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Lukita"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "Addictive Lukita: una gafa completa para todos tus deportes. Cristales 100% protección UVA/B\n\nRecomendada para caras estándar . Consulta las medidas en la foto de la galería.\n\nDale al Play para ver cómo se cambian sus cristales."
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-lukita"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2020/03/addictive-lukita-gris-naranja-1.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "90"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Lukita"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2020/03/addictive-lukita-gris-naranja-1.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de padel",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-de-padel"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Lukita",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-lukita"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-lukita#product",
+                                                           "name":  "Addictive Lukita",
+                                                           "url":  "https://gafasaddictive.com/addictive-lukita",
+                                                           "description":  "Addictive Lukita: una gafa completa para todos tus deportes. Cristales 100% protección UVA/B\r\n\r\nRecomendada para caras estándar . Consulta las medidas en la foto de la galería.\r\n\r\nDale al Play para ver cómo se cambian sus cristales.",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2020/03/addictive-lukita-gris-naranja-1.jpg",
+                                                           "sku":  "addluk",
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "90.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-lukita",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "4.67",
+                                                                                   "reviewCount":  3
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "4",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Lolo"
+                                                                                         },
+                                                                              "reviewBody":  "LA gafa es sencilla, y es resistente. Es un regalo, no me puedo quejar",
+                                                                              "datePublished":  "2022-01-13T10:52:53+01:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Juan Luis"
+                                                                                         },
+                                                                              "reviewBody":  "Las gafas tienen una calidad precio increíble, ademas son preciosas. Muy contento con el producto, muy aconsejable.",
+                                                                              "datePublished":  "2020-05-18T19:25:17+02:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Jessica"
+                                                                                         },
+                                                                              "reviewBody":  "Elegí este modelo porque es especial para caras estrechas y ha cumplido todas mis expectativas: súper cómodas, no notas que las llevas. Además, tienen una relación calidad precio excelente. Lo mejor de todo es que puedes elegir la lente que más se adapte a tus necesidades. En mi caso, una transparente que se oscurece con el sol, ya que juego al Padel tanto en interior como en exterior y estoy entusiasmada de lo bien que funcionan. RECOMENDADÍSIMAS!!!",
+                                                                              "datePublished":  "2020-05-14T10:35:41+02:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "server":  "nginx",
+                                     "date":  "Thu, 15 Jan 2026 09:35:01 GMT",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "x-powered-by":  "PHP/7.4.33",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "pragma":  "no-cache",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/376\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=376\u003e; rel=shortlink",
+                                     "set-cookie":  "total_page=1; expires=Thu, 15-Jan-2026 11:35:00 GMT; Max-Age=7200\nwoostify_product_recently_viewed=376; path=/",
+                                     "vary":  "Accept-Encoding",
+                                     "content-encoding":  "gzip",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "x-firefox-spdy":  "h2"
+                                 }
+                 },
+    "text":  "Addictive Lukita – Gafas Addictive\nValorado con 4.67 de 5 en base a 3 valoraciones de clientes\n(3 valoraciones de clientes) \nAddictive Lukita: una gafa completa para todos tus deportes. Cristales 100% protección UVA/B\nRecomendada para caras estándar . Consulta las medidas en la foto de la galería.\nDale al Play para ver cómo se cambian sus cristales."
+}

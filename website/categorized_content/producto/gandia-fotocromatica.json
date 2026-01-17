@@ -1,0 +1,135 @@
+{
+    "url":  "https://gafasaddictive.com/producto/gandia-fotocromatica",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/producto/gandia-fotocromatica",
+                     "title":  "Addictive Gandía Fotocromática – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Gandía Fotocromática"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "Las Addictive Gandía están fabricadas en TR90 de doble inyección con puente antideslizante para un ajuste y sujeción excelente.\n\nEs el modelo perfecto si tienes el rostro más fino y necesitas unas gafas deportivas que se ajusten bien.\n\nLa lente premium Photosport es nuestra lente más versátil, ya que se adaptan automáticamente a la intensidad solar ¡Olvídate de cambiar tus lentes!"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/producto/gandia-fotocromatica"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2020/03/addictive-gandia-fucsia-transp-2-1.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "100"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Gandía Fotocromática"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2020/03/addictive-gandia-fucsia-transp-2-1.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Sin categorizar",
+                                                                                                    "@id":  "https://gafasaddictive.com/comprar/sin-categorizar"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Gandía Fotocromática",
+                                                                                                    "@id":  "https://gafasaddictive.com/producto/gandia-fotocromatica"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/producto/gandia-fotocromatica#product",
+                                                           "name":  "Addictive Gandía Fotocromática",
+                                                           "url":  "https://gafasaddictive.com/producto/gandia-fotocromatica",
+                                                           "description":  "Las Addictive Gandía están fabricadas en TR90 de doble inyección con puente antideslizante para un ajuste y sujeción excelente.\r\n\r\nEs el modelo perfecto si tienes el rostro más fino y necesitas unas gafas deportivas que se ajusten bien.\r\n\r\nLa lente premium Photosport es nuestra lente más versátil, ya que se adaptan automáticamente a la intensidad solar ¡Olvídate de cambiar tus lentes!",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2020/03/addictive-gandia-fucsia-transp-2-1.jpg",
+                                                           "sku":  6946,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "100.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/producto/gandia-fotocromatica",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "server":  "nginx",
+                                     "date":  "Thu, 15 Jan 2026 09:37:25 GMT",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "x-powered-by":  "PHP/7.4.33",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "pragma":  "no-cache",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/6946\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=6946\u003e; rel=shortlink",
+                                     "set-cookie":  "total_page=1; expires=Thu, 15-Jan-2026 11:37:24 GMT; Max-Age=7200\nPHPSESSID=bjnk78edr20i8i7mmk4ajvh9o3; path=/\nwoostify_product_recently_viewed=6946; path=/",
+                                     "vary":  "Accept-Encoding",
+                                     "content-encoding":  "gzip",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "x-firefox-spdy":  "h2"
+                                 }
+                 },
+    "text":  "Addictive Gandía Fotocromática – Gafas Addictive\nLas Addictive Gandía están fabricadas en TR90 de doble inyección con puente antideslizante para un ajuste y sujeción excelente.\nEs el modelo perfecto si tienes el rostro más fino y necesitas unas gafas deportivas que se ajusten bien.\nLa lente premium Photosport es nuestra lente más versátil, ya que se adaptan automáticamente a la intensidad solar ¡Olvídate de cambiar tus lentes!\nInformación adicional \nInformación adicional\nColor de Montura \nblanco, carbono, Fucsia, negro-rojo"
+}

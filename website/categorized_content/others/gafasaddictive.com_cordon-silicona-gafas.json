@@ -1,0 +1,136 @@
+{
+    "url":  "https://gafasaddictive.com/cordon-silicona-gafas",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/cordon-silicona-gafas",
+                     "title":  "Cordón de silicona para gafas (Marca Addictive) – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Cordón de silicona para gafas (Marca Addictive)"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch6\u003ePractica tu deporte favorito sin preocuparte por perder o dañar tus gafas.\u003c/h6\u003e\nCordón negro de silicona regulable y antideslizante."
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/cordon-silicona-gafas"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "4.10"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Cordón de silicona para gafas (Marca Addictive)"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/woocommerce-placeholder-300x180.png"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Accesorios",
+                                                                                                    "@id":  "https://gafasaddictive.com/accesorios"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Cordón de silicona para gafas (Marca Addictive)",
+                                                                                                    "@id":  "https://gafasaddictive.com/cordon-silicona-gafas"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/cordon-silicona-gafas#product",
+                                                           "name":  "Cordón de silicona para gafas (Marca Addictive)",
+                                                           "url":  "https://gafasaddictive.com/cordon-silicona-gafas",
+                                                           "description":  "Practica tu deporte favorito sin preocuparte por perder o dañar tus gafas.\r\nCordón negro de silicona regulable y antideslizante.",
+                                                           "sku":  5469,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "4.10",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "5.50",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31",
+                                                                                                             "priceType":  "https://schema.org/ListPrice"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/cordon-silicona-gafas",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:36:01 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/5469\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=5469\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=5469; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Cordón de silicona para gafas (Marca Addictive) – Gafas Addictive\nPractica tu deporte favorito sin preocuparte por perder o dañar tus gafas.\nCordón negro de silicona regulable y antideslizante."
+}

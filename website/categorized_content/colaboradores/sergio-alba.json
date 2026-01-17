@@ -1,0 +1,33 @@
+{
+    "url":  "https://gafasaddictive.com/colaboradores/sergio-alba",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/colaboradores/sergio-alba",
+                     "title":  "Sergio Alba – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "website"
+                                       }
+                                   ],
+                     "jsonLd":  null,
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:34:44 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/pages/5825\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=5825\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "PHPSESSID=euh58j0rn5n2l8p37vgtqdfr6t; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Sergio Alba – Gafas Addictive\nEs un top del pádel nacional.\nSe encuentra en el número 47 del ranking del circuito World Padel Tour con 274 partidos jugados a sus espaldas ha ganado la cantidad de 171 en el circuito.\nÉl sabe la importancia que tiene cuidar de sus ojos y por eso confía en Addictive para protegerlos. Además también sabe que las Addictive Breathe le sientan genial."
+}

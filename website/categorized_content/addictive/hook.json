@@ -1,0 +1,178 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-hook",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-hook",
+                     "title":  "Addictive Hook – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Hook"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003cstrong\u003e¿Quieres ver mejor el agua cuando estás pescando?\u003c/strong\u003e\n\nEntonces necesitas unas gafas polarizadas de pesca.\n\nNuestras \u003cstrong\u003eAddictive Hook\u003c/strong\u003e están diseñadas para optimizar la visión durante la pesca deportiva:\n\u003cul\u003e\n \t\u003cli\u003eDiseño envolvente\u003c/li\u003e\n \t\u003cli\u003eCristales de policarbonato polarizados.\u003c/li\u003e\n \t\u003cli\u003eMontura de TR90 uno de los materiales más resistentes y ligeros del mercado y con un peso de 22gr.\u003c/li\u003e\n \t\u003cli\u003eAntideslizantes\u003c/li\u003e\n\u003c/ul\u003e\n "
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-hook"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/02/addictive-HOOK-C4_H.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "85"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Hook"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/02/addictive-HOOK-C4_H.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas pesca",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-pesca"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Hook",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-hook"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-hook#product",
+                                                           "name":  "Addictive Hook",
+                                                           "url":  "https://gafasaddictive.com/addictive-hook",
+                                                           "description":  "¿Quieres ver mejor el agua cuando estás pescando?\r\n\r\nEntonces necesitas unas gafas polarizadas de pesca.\r\n\r\nNuestras Addictive Hook están diseñadas para optimizar la visión durante la pesca deportiva:\r\n\r\n \tDiseño envolvente\r\n \tCristales de policarbonato polarizados.\r\n \tMontura de TR90 uno de los materiales más resistentes y ligeros del mercado y con un peso de 22gr.\r\n \tAntideslizantes\r\n\r\n\u0026amp;nbsp;",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2022/02/addictive-HOOK-C4_H.jpg",
+                                                           "sku":  8064,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "85.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-hook",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  2
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Óscar"
+                                                                                         },
+                                                                              "reviewBody":  "un regalo de reyes BBB, ya sabes bueno...",
+                                                                              "datePublished":  "2022-01-13T10:44:26+01:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Javi"
+                                                                                         },
+                                                                              "reviewBody":  "Gafa polarizada a buen precio. Son cómodas y pesan poco. Las rcomiendo",
+                                                                              "datePublished":  "2021-11-03T11:52:01+01:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:18 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/8064\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=8064\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=8064; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive Hook – Gafas Addictive\nValorado con 5.00 de 5 en base a 2 valoraciones de clientes\n(2 valoraciones de clientes) \n¿Quieres ver mejor el agua cuando estás pescando?\nEntonces necesitas unas gafas polarizadas de pesca.\nNuestras Addictive Hook están diseñadas para optimizar la visión durante la pesca deportiva:\nDiseño envolvente\nCristales de policarbonato polarizados.\nMontura de TR90 uno de los materiales más resistentes y ligeros del mercado y con un peso de 22gr.\nAntideslizantes"
+}

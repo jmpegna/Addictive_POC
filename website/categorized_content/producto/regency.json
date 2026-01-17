@@ -1,0 +1,88 @@
+{
+    "url":  "https://gafasaddictive.com/producto/addictive-regency",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/producto/addictive-regency",
+                     "title":  "Addictive Regency – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Regency"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "Quieres unas gafas de deporte al mejor precio? Gafas Addictive Regency Características técnicas: Gafas de..."
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/producto/addictive-regency"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2025/03/REGENCY-c1_2-scaled.jpg"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Regency"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2025/03/REGENCY-c1_2-scaled.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@type":  "BreadcrumbList",
+                                        "itemListElement":  [
+                                                                {
+                                                                    "@type":  "ListItem",
+                                                                    "position":  1,
+                                                                    "item":  {
+                                                                                 "name":  "Inicio",
+                                                                                 "@id":  "https://gafasaddictive.com"
+                                                                             }
+                                                                },
+                                                                {
+                                                                    "@type":  "ListItem",
+                                                                    "position":  2,
+                                                                    "item":  {
+                                                                                 "name":  "Gafas deportivas",
+                                                                                 "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                             }
+                                                                },
+                                                                {
+                                                                    "@type":  "ListItem",
+                                                                    "position":  3,
+                                                                    "item":  {
+                                                                                 "name":  "Addictive Regency",
+                                                                                 "@id":  "https://gafasaddictive.com/producto/addictive-regency"
+                                                                             }
+                                                                }
+                                                            ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:34:27 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/13889\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=13889\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=13889; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive Regency – Gafas Addictive\nEste producto no está disponible porque no quedan existencias.\nInformación adicional \nInformación adicional\nColor de Montura \nAzul, blanco-azul, negro-rojo\n\t\nProductos relacionados"
+}

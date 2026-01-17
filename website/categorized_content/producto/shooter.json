@@ -1,0 +1,178 @@
+{
+    "url":  "https://gafasaddictive.com/producto/addictive-shooter",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/producto/addictive-shooter",
+                     "title":  "Gafas de tiro Addictive Shooter – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Gafas de tiro Addictive Shooter"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "Gafas de Tiro Addictive Shooter\n\nLa gafa de tiro de los especialistas en Visión Deportiva.\n\nTres filtros Amarillo, Bermellón y Morado, incluidos.\n\nENVÍO GRATIS\n\n "
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/producto/addictive-shooter"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/08/addictive-shooter-1.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "235"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Gafas de tiro Addictive Shooter"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/08/addictive-shooter-1.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas tiro",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-tiro"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de tiro Addictive Shooter",
+                                                                                                    "@id":  "https://gafasaddictive.com/producto/addictive-shooter"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/producto/addictive-shooter#product",
+                                                           "name":  "Gafas de tiro Addictive Shooter",
+                                                           "url":  "https://gafasaddictive.com/producto/addictive-shooter",
+                                                           "description":  "Gafas de Tiro Addictive Shooter\r\n\r\nLa gafa de tiro de los especialistas en Visión Deportiva.\r\n\r\nTres filtros Amarillo, Bermellón y Morado, incluidos.\r\n\r\nENVÍO GRATIS\r\n\r\n\u0026amp;nbsp;",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2021/08/addictive-shooter-1.jpg",
+                                                           "sku":  9704,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "235.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/producto/addictive-shooter",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  2
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Leonardo Fdez."
+                                                                                         },
+                                                                              "reviewBody":  "Relación calidad precio buenísima. Los filtros iguales que los de bereta o similares. Solo me falta comprobar cuanto me duran, pero esoy contento.",
+                                                                              "datePublished":  "2022-01-11T12:29:24+01:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Hipólito"
+                                                                                         },
+                                                                              "reviewBody":  "Tres filtros y una gafa que nada tiene que envidiar a las randolph o bereta por algo mas de 200 euros. Esta navidad ya tengo regalo para mi hijo.",
+                                                                              "datePublished":  "2021-11-11T00:36:39+01:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:48 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/9704\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=9704\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=9704; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Gafas de tiro Addictive Shooter – Gafas Addictive\nValorado con 5.00 de 5 en base a 2 valoraciones de clientes\n(2 valoraciones de clientes) \nGafas de Tiro Addictive Shooter\nLa gafa de tiro de los especialistas en Visión Deportiva.\nTres filtros Amarillo, Bermellón y Morado, incluidos.\nENVÍO GRATIS"
+}

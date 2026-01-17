@@ -1,0 +1,141 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-skeeter",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-skeeter",
+                     "title":  "Gafas tiro Addictive Skeeter – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Gafas tiro Addictive Skeeter"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "¿Buscas unas gafas de tiro con buena relación calidad-precio?\n\nNo busques más, las Addictive Skeeter están aquí para solucionar ese problema.\n\nDisponibles en los tres colores que todo tirador necesitará en algún momento\n\u003cul\u003e\n \t\u003cli\u003eAmarillo\u003c/li\u003e\n \t\u003cli\u003eBermellón\u003c/li\u003e\n \t\u003cli\u003eMorado\u003c/li\u003e\n\u003c/ul\u003e\nTe las llevamos a casa con ENVÍO GRATIS\n\nEn Addicitive somos ópticos especialistas en visión deportiva."
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-skeeter"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/02/addictive-SKEETER-C1_E.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "94"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Gafas tiro Addictive Skeeter"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/02/addictive-SKEETER-C1_E.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas tiro",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-tiro"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas tiro Addictive Skeeter",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-skeeter"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-skeeter#product",
+                                                           "name":  "Gafas tiro Addictive Skeeter",
+                                                           "url":  "https://gafasaddictive.com/addictive-skeeter",
+                                                           "description":  "¿Buscas unas gafas de tiro con buena relación calidad-precio?\r\n\r\nNo busques más, las Addictive Skeeter están aquí para solucionar ese problema.\r\n\r\nDisponibles en los tres colores que todo tirador necesitará en algún momento\r\n\r\n \tAmarillo\r\n \tBermellón\r\n \tMorado\r\n\r\nTe las llevamos a casa con ENVÍO GRATIS\r\n\r\nEn Addicitive somos ópticos especialistas en visión deportiva.",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2022/02/addictive-SKEETER-C1_E.jpg",
+                                                           "sku":  10946,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "94.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-skeeter",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:51 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/10946\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=10946\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=10946; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Gafas tiro Addictive Skeeter – Gafas Addictive\nAnterior \nGafas de tiro Addictive Shooter\nSiguiente \nGafas de tiro con arco Addictive Arrow\n¿Buscas unas gafas de tiro con buena relación calidad-precio?\nNo busques más, las Addictive Skeeter están aquí para solucionar ese problema.\nDisponibles en los tres colores que todo tirador necesitará en algún momento\nAmarillo\nBermellón\nMorado\nTe las llevamos a casa con ENVÍO GRATIS\nEn Addicitive somos ópticos especialistas en visión deportiva.\nInformación adicional \nInformación adicional\ncolores gafas tiro \namarillo, Bermellón, Morado"
+}

@@ -1,0 +1,143 @@
+{
+    "url":  "https://gafasaddictive.com/producto/addictive-manager",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/producto/addictive-manager",
+                     "title":  "Addictive Manager – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Manager"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "Gafas Addictive Manager\n\nRecomendada para cualquier tipo de deporte\n\nENVÍO GRATIS"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/producto/addictive-manager"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/01/addictive-MANAGER-negra.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "79"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Manager"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/01/addictive-MANAGER-negra.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de padel",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-de-padel"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Manager",
+                                                                                                    "@id":  "https://gafasaddictive.com/producto/addictive-manager"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/producto/addictive-manager#product",
+                                                           "name":  "Addictive Manager",
+                                                           "url":  "https://gafasaddictive.com/producto/addictive-manager",
+                                                           "description":  "Gafas Addictive Manager\r\n\r\nRecomendada para cualquier tipo de deporte\r\n\r\nENVÍO GRATIS",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2022/01/addictive-MANAGER-negra.jpg",
+                                                           "sku":  10658,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "79.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/producto/addictive-manager",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "server":  "nginx",
+                                     "date":  "Thu, 15 Jan 2026 09:35:37 GMT",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "x-powered-by":  "PHP/7.4.33",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "pragma":  "no-cache",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/10658\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=10658\u003e; rel=shortlink",
+                                     "set-cookie":  "total_page=1; expires=Thu, 15-Jan-2026 11:35:36 GMT; Max-Age=7200\nwoostify_product_recently_viewed=376%7C8009%7C8330%7C10658; path=/",
+                                     "vary":  "Accept-Encoding",
+                                     "content-encoding":  "gzip",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "x-firefox-spdy":  "h2"
+                                 }
+                 },
+    "text":  "Addictive Manager – Gafas Addictive\nGafas Addictive Manager\nRecomendada para cualquier tipo de deporte\nENVÍO GRATIS\nInformación adicional \nInformación adicional\nColor de Montura \nblanco, negro\n\t\nProductos relacionados"
+}

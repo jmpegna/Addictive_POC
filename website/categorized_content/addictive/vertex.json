@@ -1,0 +1,163 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-vertex",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-vertex",
+                     "title":  "Addictive Vertex – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Vertex"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "Gafas Addictive Vertex\n\nGafa negra y rosa: lente transparente antirreflejante\n\nGafa blanca y verde: lente azul semi-espejada\n\nGafa negra y roja: lente gris tradicional\n\nElige entre uno de estos colores de montura y después elige si quieres la lente que viene de serie o prefeires decantarte por una lente Premium.\n\n \n\nPROTECCIÓN 100% UVA/B\n\nRecomendada para caras estándar y delgadas. Consulta las medidas en la foto de la galería.\n\nENVÍO GRATIS"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-vertex"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2020/05/addictive-vertex-blanca-3.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "84"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Vertex"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2020/05/addictive-vertex-blanca-3.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de golf",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-golf"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Vertex",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-vertex"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-vertex#product",
+                                                           "name":  "Addictive Vertex",
+                                                           "url":  "https://gafasaddictive.com/addictive-vertex",
+                                                           "description":  "Gafas Addictive Vertex\r\n\r\nGafa negra y rosa: lente transparente antirreflejante\r\n\r\nGafa blanca y verde: lente azul semi-espejada\r\n\r\nGafa negra y roja: lente gris tradicional\r\n\r\nElige entre uno de estos colores de montura y después elige si quieres la lente que viene de serie o prefeires decantarte por una lente Premium.\r\n\r\n\u0026amp;nbsp;\r\n\r\nPROTECCIÓN 100% UVA/B\r\n\r\nRecomendada para caras estándar y delgadas. Consulta las medidas en la foto de la galería.\r\n\r\nENVÍO GRATIS",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2020/05/addictive-vertex-blanca-3.jpg",
+                                                           "sku":  "addver",
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "84.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-vertex",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  1
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "David Garrido Lasheras"
+                                                                                         },
+                                                                              "reviewBody":  "Encantando con este modelo de gafas , graduadas con antireflejos y fotocromaticas  las uso para el el padel y por ahora todo perfecto son comodas y no se empañan. \r\nLa diferencia de jugar con unas gafas asi a las de calle es abismal.\r\nGracias a Manu Martin por recomendar esta pagina y por supuesto a  Visiorama Sport por su trato y rapidez y todo sin salir de casa , Muchas Gracias.",
+                                                                              "datePublished":  "2021-04-13T13:06:39+02:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:01 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/3090\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=3090\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=3090; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive Vertex – Gafas Addictive\nValorado con 5.00 de 5 en base a 1 valoración de un cliente\n(1 valoración de cliente) \nGafas Addictive Vertex\nGafa negra y rosa: lente transparente antirreflejante\nGafa blanca y verde: lente azul semi-espejada\nGafa negra y roja: lente gris tradicional\nElige entre uno de estos colores de montura y después elige si quieres la lente que viene de serie o prefeires decantarte por una lente Premium.\nPROTECCIÓN 100% UVA/B\nRecomendada para caras estándar y delgadas. Consulta las medidas en la foto de la galería.\nENVÍO GRATIS"
+}

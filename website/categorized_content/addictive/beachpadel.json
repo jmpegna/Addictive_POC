@@ -1,0 +1,218 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-beachpadel",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-beachpadel",
+                     "title":  "Addictive BeachPadel – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive BeachPadel"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "¿Buscas unas gafas para jugar al pádel?\n\u003ch3\u003eGafas \u003cstrong\u003eAddictive Beachpadel: \u003c/strong\u003ela única gafa diseñada en exclusiva para jugar al padel y al tenis.\u003c/h3\u003e\n\u003cul\u003e\n \t\u003cli\u003eProtección 100%UVA/B: salud para tus ojos\u003c/li\u003e\n \t\u003cli\u003eCristales de policarbonato especialmente diseñados para protegerte de los  golpes como pelotazos o raquetazos: mayor protección para tu cara y tu visión.\u003c/li\u003e\n \t\u003cli\u003eMontura de TR90: material ultraligero y flexible usado por todas las grandes marcas: confort ilimitado para que jueges sin preocupaciones extra.\u003c/li\u003e\n \t\u003cli\u003eCristales transparente extra gratis: ahorras dinero.\u003c/li\u003e\n \t\u003cli\u003eRecomendadas para caras tamaño medio y finas.\u003c/li\u003e\n \t\u003cli\u003eSe pueden graduar, consúltanos.\u003c/li\u003e\n \t\u003cli\u003e\u003cstrong\u003eEnvío gratis: ahorras más dinero. \u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n¿Necesitas más razones? Mira más abajo la descripción y los testimonios, aunque te dejamos aquí uno de los que más nos gustan:\n\u003cblockquote\u003e\n\u003cp style=\"text-align: center;\"\u003e\u003cstrong\u003e\u003cspan style=\"color: #d9c43b;\"\u003eJulián: «\u003cem\u003eHe comprado una fotocromática y es lo mejor para no tener que cambiar de gafa, aqui en el norte el tiempo cambia mucho y es un rollo quitarte y ponerte la gafa si hay nubes y sol. muy recomendables\u003c/em\u003e»\u003c/span\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\nPuedes ver un vídeo si pulsas en el botón rojo (ese que se parece al de Youtube) que tienes en la foto principal de la gafa.\n\nAhora puedes seguir buscando y perdiendo el tiempo en internet o quedarte con la gafa de padel más vendida. Por algo será. ¿no crees?\n\nEs tu decisión, pero tómala antes de llevarte un pelotazo o deslumbrarte por el sol y no llegar a una bola que de sobra llegarías.\n\n "
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-beachpadel"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/10/beachpadel-amarilla-3.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "75"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive BeachPadel"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/10/beachpadel-amarilla-3.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de padel",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-de-padel"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive BeachPadel",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-beachpadel"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-beachpadel#product",
+                                                           "name":  "Addictive BeachPadel",
+                                                           "url":  "https://gafasaddictive.com/addictive-beachpadel",
+                                                           "description":  "¿Buscas unas gafas para jugar al pádel?\r\nGafas Addictive Beachpadel: la única gafa diseñada en exclusiva para jugar al padel y al tenis.\r\n\r\n \tProtección 100%UVA/B: salud para tus ojos\r\n \tCristales de policarbonato especialmente diseñados para protegerte de los  golpes como pelotazos o raquetazos: mayor protección para tu cara y tu visión.\r\n \tMontura de TR90: material ultraligero y flexible usado por todas las grandes marcas: confort ilimitado para que jueges sin preocupaciones extra.\r\n \tCristales transparente extra gratis: ahorras dinero.\r\n \tRecomendadas para caras tamaño medio y finas.\r\n \tSe pueden graduar, consúltanos.\r\n \tEnvío gratis: ahorras más dinero. \r\n\r\n¿Necesitas más razones? Mira más abajo la descripción y los testimonios, aunque te dejamos aquí uno de los que más nos gustan:\r\n\r\nJulián: «He comprado una fotocromática y es lo mejor para no tener que cambiar de gafa, aqui en el norte el tiempo cambia mucho y es un rollo quitarte y ponerte la gafa si hay nubes y sol. muy recomendables»\r\n\r\nPuedes ver un vídeo si pulsas en el botón rojo (ese que se parece al de Youtube) que tienes en la foto principal de la gafa.\r\n\r\nAhora puedes seguir buscando y perdiendo el tiempo en internet o quedarte con la gafa de padel más vendida. Por algo será. ¿no crees?\r\n\r\nEs tu decisión, pero tómala antes de llevarte un pelotazo o deslumbrarte por el sol y no llegar a una bola que de sobra llegarías.\r\n\r\n\u0026amp;nbsp;",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2022/10/beachpadel-amarilla-3.jpg",
+                                                           "sku":  "addbep",
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "AggregateOffer",
+                                                                              "lowPrice":  "75.00",
+                                                                              "highPrice":  "100.00",
+                                                                              "offerCount":  8,
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-beachpadel",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         },
+                                                                              "priceCurrency":  "EUR"
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  5
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Ernesto"
+                                                                                         },
+                                                                              "reviewBody":  "Buenas gafas, las uso para tenis y para correr. Tiene un cristal d regalo y se agrace.",
+                                                                              "datePublished":  "2021-10-27T15:54:00+02:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Julian"
+                                                                                         },
+                                                                              "reviewBody":  "He comprado una fotocromática y es lo mejor para no tener q cambiar de gafa, aqui en el norte el tiempo cambia mucho y es un rollo quitaret y ponerte la gafa si hay nubes y sol. muy recomendables",
+                                                                              "datePublished":  "2021-07-11T21:49:29+02:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Aitor"
+                                                                                         },
+                                                                              "reviewBody":  "Muy recomebdables para jugar al padel.",
+                                                                              "datePublished":  "2020-11-06T20:29:30+01:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Luis Javier"
+                                                                                         },
+                                                                              "reviewBody":  "Si juegas al voley playa y no quieres abrasarte los ojos, pocas gafas mejores a este precio vas a encontrar. voy a por las segundas",
+                                                                              "datePublished":  "2020-06-29T21:42:46+02:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Diego P.r."
+                                                                                         },
+                                                                              "reviewBody":  "las mejores gafas de padel que he tenido, junto con otras de una óptica que compre hace años.",
+                                                                              "datePublished":  "2020-05-11T12:56:56+02:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:34:51 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/36\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=36\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=36; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive BeachPadel – Gafas Addictive\nValorado con 5.00 de 5 en base a 5 valoraciones de clientes\n(5 valoraciones de clientes) \n¿Buscas unas gafas para jugar al pádel?\nGafas Addictive Beachpadel: la única gafa diseñada en exclusiva para jugar al padel y al tenis.\nProtección 100%UVA/B: salud para tus ojos\nCristales de policarbonato especialmente diseñados para protegerte de los golpes como pelotazos o raquetazos: mayor protección para tu cara y tu visión.\nMontura de TR90: material ultraligero y flexible usado por todas las grandes marcas: confort ilimitado para que jueges sin preocupaciones extra.\nCristales transparente extra gratis: ahorras dinero.\nRecomendadas para caras tamaño medio y finas.\nSe pueden graduar, consúltanos.\nEnvío gratis: ahorras más dinero. \n¿Necesitas más razones? Mira más abajo la descripción y los testimonios, aunque te dejamos aquí uno de los que más nos gustan:\nJulián: «He comprado una fotocromática y es lo mejor para no tener que cambiar de gafa, aqui en el norte el tiempo cambia mucho y es un rollo quitarte y ponerte la gafa si hay nubes y sol. muy recomendables»\nPuedes ver un vídeo si pulsas en el botón rojo (ese que se parece al de Youtube) que tienes en la foto principal de la gafa.\nAhora puedes seguir buscando y perdiendo el tiempo en internet o quedarte con la gafa de padel más vendida. Por algo será. ¿no crees?\nEs tu decisión, pero tómala antes de llevarte un pelotazo o deslumbrarte por el sol y no llegar a una bola que de sobra llegarías."
+}

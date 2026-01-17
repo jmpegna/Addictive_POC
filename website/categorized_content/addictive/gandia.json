@@ -1,0 +1,218 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-gandia",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-gandia",
+                     "title":  "Addictive Gandia – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Gandia"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch3\u003eGafas Addictive Gandía.\u003c/h3\u003e\n\u003cspan style=\"font-weight: 400;\"\u003e¿Te cansa ver siempre las mismas gafas de sol por todos lados?  \u003c/span\u003e\u003cspan style=\"font-weight: 400;\"\u003e¿Las mismas marcas que lleva todo el mundo? \u003c/span\u003e\u003cspan style=\"font-weight: 400;\"\u003e¿Incluso las que se conocen como “gafas de marca” y supuestamente son las mejores no te convencen?\u003c/span\u003e\n\n\u003cspan style=\"font-weight: 400;\"\u003eEntonces estás \u003cstrong\u003edelante de tus nuevas gafas\u003c/strong\u003e ¿Por qué?\u003c/span\u003e\n\u003cul\u003e\n \t\u003cli\u003ePor su protección 100% UVA/B\u003c/li\u003e\n \t\u003cli\u003ePorque vienen incluidos dos parejas de cristales: uno semiespejado y otro transparente ideal para Indoor.\u003c/li\u003e\n \t\u003cli\u003ePorque nuestro equipo de ópticos las ha desarrollado y optimizado para hacer deporte.\u003c/li\u003e\n \t\u003cli\u003e\u003cspan style=\"font-weight: 400;\"\u003ePorque sus cristales son anti impacto y tienen protección ultravioleta total  para cuidar tus ojos.\u003c/span\u003e\u003c/li\u003e\n \t\u003cli\u003e\u003cspan style=\"font-weight: 400;\"\u003ePorque vas a alucinar con su calidad, confort y diseño cuando el repartidor las deje en tu casa.\u003c/span\u003e\u003c/li\u003e\n \t\u003cli\u003e\u003cspan style=\"font-weight: 400;\"\u003ePorque no vas a encontrar nada igual en cuanto a calidad-precio se refiere. \u003c/span\u003e\u003c/li\u003e\n \t\u003cli\u003ePor su ENVÍO GRATIS\u003c/li\u003e\n\u003c/ul\u003e\n\u003cspan style=\"font-weight: 400;\"\u003e¿Necesitas más motivos? Pásate a leer la descripción completa del producto, pero si las quieres tener en tu casa en 48 horas, selecciona tu color favorito y dale a añadir al carrito. \u003c/span\u003e\n\nTambién puedes elegir cristales PREMIUM seleccionándolos en el desplegable.\n\nRecomendada para caras delgadas . Consulta las medidas en la foto de la galería. También puedes ver un vídeo pulsando al \u003cstrong\u003e\u003cspan style=\"color: #ff0000;\"\u003ePLAY\u003c/span\u003e\u003c/strong\u003e en la imagen de la galería."
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-gandia"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/10/gandia-fucsia-sincomprimir-1-scaled.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "75"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Gandia"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/10/gandia-fucsia-sincomprimir-1-scaled.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de padel",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-de-padel"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Gandia",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-gandia"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-gandia#product",
+                                                           "name":  "Addictive Gandia",
+                                                           "url":  "https://gafasaddictive.com/addictive-gandia",
+                                                           "description":  "Gafas Addictive Gandía.\r\n¿Te cansa ver siempre las mismas gafas de sol por todos lados?  ¿Las mismas marcas que lleva todo el mundo? ¿Incluso las que se conocen como “gafas de marca” y supuestamente son las mejores no te convencen?\r\n\r\nEntonces estás delante de tus nuevas gafas ¿Por qué?\r\n\r\n \tPor su protección 100% UVA/B\r\n \tPorque vienen incluidos dos parejas de cristales: uno semiespejado y otro transparente ideal para Indoor.\r\n \tPorque nuestro equipo de ópticos las ha desarrollado y optimizado para hacer deporte.\r\n \tPorque sus cristales son anti impacto y tienen protección ultravioleta total  para cuidar tus ojos.\r\n \tPorque vas a alucinar con su calidad, confort y diseño cuando el repartidor las deje en tu casa.\r\n \tPorque no vas a encontrar nada igual en cuanto a calidad-precio se refiere. \r\n \tPor su ENVÍO GRATIS\r\n\r\n¿Necesitas más motivos? Pásate a leer la descripción completa del producto, pero si las quieres tener en tu casa en 48 horas, selecciona tu color favorito y dale a añadir al carrito. \r\n\r\nTambién puedes elegir cristales PREMIUM seleccionándolos en el desplegable.\r\n\r\nRecomendada para caras delgadas . Consulta las medidas en la foto de la galería. También puedes ver un vídeo pulsando al PLAY en la imagen de la galería.",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2022/10/gandia-fucsia-sincomprimir-1-scaled.jpg",
+                                                           "sku":  "addgan",
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "AggregateOffer",
+                                                                              "lowPrice":  "75.00",
+                                                                              "highPrice":  "102.00",
+                                                                              "offerCount":  82,
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-gandia",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         },
+                                                                              "priceCurrency":  "EUR"
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "4.80",
+                                                                                   "reviewCount":  5
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "4",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Lola"
+                                                                                         },
+                                                                              "reviewBody":  "Me trajeron estas gafas los Reyes Magos el hace dos años y la verdad es que me han evitado dos pelotazos importantes con magnífico resultado para mi cara y de resistencia para las gafas.\r\nAhora tengo un problema y es que he extraviado uno de los cristales transparentes y no sé cómo conseguirlos porque he visitado muchas webs y no me da opción de comprar los cristales, a ver si vosotros me podéis ayudar",
+                                                                              "datePublished":  "2021-11-07T12:28:34+01:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Alejandra"
+                                                                                         },
+                                                                              "reviewBody":  "Estoy suscrita a Mejora tu Padel y siempre Manu Martin las lleva y habla muy bien de ellas, así q me decidí a comprarlas y la verdad estoy encantada, son ligeras, se ajustan perfectamente que parece que ni las llevas, las lentes se cambian muy bien, se juega fenomenal con ellas, te libra de los reflejos y además ya me han salvado de un buen susto (pelotazo).\r\nAdemás te las pueden graduar, son excelentes!",
+                                                                              "datePublished":  "2021-03-02T10:34:02+01:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Nacho"
+                                                                                         },
+                                                                              "reviewBody":  "Pone que son para pádel pero yo las uso para jugar al tenis y para correr. Son cómodas y bastante bonitas, me sorprendieron mucho.",
+                                                                              "datePublished":  "2021-01-11T17:36:00+01:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Laura"
+                                                                                         },
+                                                                              "reviewBody":  "Por fin una gafa deportiva para mujeres. Perfecta para mi carita. La recomiendo ara todas las mujeres que jueguen a padel o monten en bici, como yo.",
+                                                                              "datePublished":  "2020-10-28T20:34:58+01:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Alberto"
+                                                                                         },
+                                                                              "reviewBody":  "esta marca no es muy conocida pero me la recomendaron por boca a boca jugando con amigos y tras probarla debo decir que me alegro. recomendable este modelo, se adapta muy bien. gracias",
+                                                                              "datePublished":  "2020-07-01T21:40:25+02:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:13 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/290\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=290\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=290; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive Gandia – Gafas Addictive\nValorado con 4.80 de 5 en base a 5 valoraciones de clientes\n(5 valoraciones de clientes) \nGafas Addictive Gandía.\n¿Te cansa ver siempre las mismas gafas de sol por todos lados? ¿Las mismas marcas que lleva todo el mundo? ¿Incluso las que se conocen como “gafas de marca” y supuestamente son las mejores no te convencen?\nEntonces estás delante de tus nuevas gafas ¿Por qué?\nPor su protección 100% UVA/B\nPorque vienen incluidos dos parejas de cristales: uno semiespejado y otro transparente ideal para Indoor.\nPorque nuestro equipo de ópticos las ha desarrollado y optimizado para hacer deporte.\nPorque sus cristales son anti impacto y tienen protección ultravioleta total para cuidar tus ojos.\nPorque vas a alucinar con su calidad, confort y diseño cuando el repartidor las deje en tu casa.\nPorque no vas a encontrar nada igual en cuanto a calidad-precio se refiere. \nPor su ENVÍO GRATIS\n¿Necesitas más motivos? Pásate a leer la descripción completa del producto, pero si las quieres tener en tu casa en 48 horas, selecciona tu color favorito y dale a añadir al carrito. \nTambién puedes elegir cristales PREMIUM seleccionándolos en el desplegable.\nRecomendada para caras delgadas . Consulta las medidas en la foto de la galería. También puedes ver un vídeo pulsando al PLAY en la imagen de la galería."
+}

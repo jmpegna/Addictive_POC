@@ -1,0 +1,128 @@
+{
+    "url":  "https://gafasaddictive.com/cinta-neopreno-gafas",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/cinta-neopreno-gafas",
+                     "title":  "Cinta de neopreno para gafas deportivas – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Cinta de neopreno para gafas deportivas"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003cstrong\u003ePractica tu deporte favorito sin preocuparte por perder o dañar tus gafas.\u003c/strong\u003e\n\nCinta de neopreno, suave y elástica con enganches antideslizantes.\nDisponible en rojo o en negro.\n\nMarca Addictive"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/cinta-neopreno-gafas"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "3.30"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Cinta de neopreno para gafas deportivas"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/woocommerce-placeholder-300x180.png"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Accesorios",
+                                                                                                    "@id":  "https://gafasaddictive.com/accesorios"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Cinta de neopreno para gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/cinta-neopreno-gafas"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/cinta-neopreno-gafas#product",
+                                                           "name":  "Cinta de neopreno para gafas deportivas",
+                                                           "url":  "https://gafasaddictive.com/cinta-neopreno-gafas",
+                                                           "description":  "Practica tu deporte favorito sin preocuparte por perder o dañar tus gafas.\r\n\r\nCinta de neopreno, suave y elástica con enganches antideslizantes.\r\nDisponible en rojo o en negro.\r\n\r\nMarca Addictive",
+                                                           "sku":  5472,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "3.30",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/cinta-neopreno-gafas",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:58 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/5472\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=5472\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=5472; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Cinta de neopreno para gafas deportivas – Gafas Addictive\nPractica tu deporte favorito sin preocuparte por perder o dañar tus gafas.\nCinta de neopreno, suave y elástica con enganches antideslizantes.\nDisponible en rojo o en negro.\nMarca Addictive"
+}

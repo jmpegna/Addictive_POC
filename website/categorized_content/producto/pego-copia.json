@@ -1,0 +1,143 @@
+{
+    "url":  "https://gafasaddictive.com/producto/addictive-pego-copia",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/producto/addictive-pego-copia",
+                     "title":  "Addictive Putt – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Putt"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch2\u003eAddictive Putt\u003c/h2\u003e\nGAFA MUY COMODA PARA GOLF Y CARAS ESTANDAR.\nPUENTE ANTIDESLIZANTE\nVARILLA ANTIDESLIZANTE\n\n\u003cstrong\u003eMONTURA:\u003c/strong\u003e TR90\n\u003cstrong\u003eLENTES:\u003c/strong\u003e POLICARBONATO ESPEJADO ESPECIAL GOLF\n\u003cstrong\u003ePESO: \u003c/strong\u003e25 gr.\n\nGRADUACIÓN DIRECTA\n\n\u003cimg class=\"size-full wp-image-13888 alignleft\" src=\"https://gafasaddictive.com/wp-content/uploads/2025/02/RX-Direct_50.png\" alt=\"\" width=\"141\" height=\"58\" /\u003e\n\u003ch3\u003e\u003c/h3\u003e\n \n\n \n\n \n\u003ch3\u003e\u003c/h3\u003e\n\u003ch3\u003e\u003c/h3\u003e\n\u003ch3\u003e\u003cstrong\u003eEncuentra tu distribuidor más cercano pinchando aquí\u003c/strong\u003e\u003c/h3\u003e\n\u003ch3\u003e\u003cstrong\u003e\u003ca href=\"https://gafasaddictive.com/distribuidores\"\u003eDistribuidores Addictive\u003c/a\u003e\u003c/strong\u003e\u003c/h3\u003e"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/producto/addictive-pego-copia"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2025/02/putt-scaled.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "94"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Putt"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2025/02/putt-scaled.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de golf",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-golf"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Putt",
+                                                                                                    "@id":  "https://gafasaddictive.com/producto/addictive-pego-copia"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/producto/addictive-pego-copia#product",
+                                                           "name":  "Addictive Putt",
+                                                           "url":  "https://gafasaddictive.com/producto/addictive-pego-copia",
+                                                           "description":  "Addictive Putt\r\nGAFA MUY COMODA PARA GOLF Y CARAS ESTANDAR.\r\nPUENTE ANTIDESLIZANTE\r\nVARILLA ANTIDESLIZANTE\r\n\r\nMONTURA: TR90\r\nLENTES: POLICARBONATO ESPEJADO ESPECIAL GOLF\r\nPESO: 25 gr.\r\n\r\nGRADUACIÓN DIRECTA\r\n\r\n\r\n\r\n\u0026amp;nbsp;\r\n\r\n\u0026amp;nbsp;\r\n\r\n\u0026amp;nbsp;\r\n\r\n\r\nEncuentra tu distribuidor más cercano pinchando aquí\r\nDistribuidores Addictive",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2025/02/putt-scaled.jpg",
+                                                           "sku":  13868,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "94.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/producto/addictive-pego-copia",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "server":  "nginx",
+                                     "date":  "Thu, 15 Jan 2026 09:34:27 GMT",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "x-powered-by":  "PHP/7.4.33",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "pragma":  "no-cache",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/13868\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=13868\u003e; rel=shortlink",
+                                     "set-cookie":  "total_page=1; expires=Thu, 15-Jan-2026 11:34:26 GMT; Max-Age=7200\nwoostify_product_recently_viewed=14029%7C14006%7C13881%7C13868; path=/",
+                                     "vary":  "Accept-Encoding",
+                                     "content-encoding":  "gzip",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "x-firefox-spdy":  "h2"
+                                 }
+                 },
+    "text":  "Addictive Putt – Gafas Addictive\nAddictive Putt\nGAFA MUY COMODA PARA GOLF Y CARAS ESTANDAR.\nPUENTE ANTIDESLIZANTE\nVARILLA ANTIDESLIZANTE\nMONTURA: TR90\nLENTES: POLICARBONATO ESPEJADO ESPECIAL GOLF\nPESO: 25 gr.\nGRADUACIÓN DIRECTA\nEncuentra tu distribuidor más cercano pinchando aquí\nDistribuidores Addictive"
+}

@@ -1,0 +1,141 @@
+{
+    "url":  "https://gafasaddictive.com/producto/addictive-bea-gonzalez",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/producto/addictive-bea-gonzalez",
+                     "title":  "Addictive PEARL by BEA GONZÁLEZ – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive PEARL by BEA GONZÁLEZ"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003cstrong\u003eGafas Addictive\u003c/strong\u003e\n\u003ch2\u003eBEA GONZÁLEZ\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003ch3\u003e\u003cstrong\u003eEncuentra tu distribuidor más cercano pinchando aquí\u003c/strong\u003e\u003c/h3\u003e\n\u003ch3\u003e\u003cstrong\u003e\u003ca href=\"https://gafasaddictive.com/distribuidores\"\u003eDistribuidores Addictive\u003c/a\u003e\u003c/strong\u003e\u003c/h3\u003e\n\u003c/blockquote\u003e"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/producto/addictive-bea-gonzalez"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2024/10/Bea-6.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "99"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive PEARL by BEA GONZÁLEZ"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2024/10/Bea-6.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de padel",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-de-padel"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive PEARL by BEA GONZÁLEZ",
+                                                                                                    "@id":  "https://gafasaddictive.com/producto/addictive-bea-gonzalez"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/producto/addictive-bea-gonzalez#product",
+                                                           "name":  "Addictive PEARL by BEA GONZÁLEZ",
+                                                           "url":  "https://gafasaddictive.com/producto/addictive-bea-gonzalez",
+                                                           "description":  "Gafas Addictive\r\nBEA GONZÁLEZ\r\n\r\nEncuentra tu distribuidor más cercano pinchando aquí\r\nDistribuidores Addictive",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2024/10/Bea-6.jpg",
+                                                           "sku":  13736,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "99.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/producto/addictive-bea-gonzalez",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:31 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/13736\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=13736\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=13736; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive PEARL by BEA GONZÁLEZ – Gafas Addictive\nInformación adicional \nInformación adicional\nColor de Montura \nblanco, negro\n\t\nProductos relacionados"
+}

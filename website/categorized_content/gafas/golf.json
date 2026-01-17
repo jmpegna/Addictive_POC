@@ -1,0 +1,33 @@
+{
+    "url":  "https://gafasaddictive.com/gafas-golf",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/gafas-golf",
+                     "title":  "Gafas de golf – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "website"
+                                       }
+                                   ],
+                     "jsonLd":  null,
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:16 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product_cat/21\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "PHPSESSID=ir6ro7t1mmu9c2goq56b0jlmjg; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Gafas de golf – Gafas Addictive\n¿Cansado de no ver bien el green o la bola?\nPrueba nuestras gafas especialmente diseñadas para golf. Optimizamos los cristales de nuestras gafas deportivas para mejorar el contraste y visión de la bola en el campo.\nAdemás, las monturas de esta categoría están diseñadas para aportar el máximo confort, así que las llevarás horas sin que te enteres. Disfruta de tus jornadas en el campo sin preocuparte por la salud de tus ojos."
+}

@@ -1,0 +1,141 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-black-bass",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-black-bass",
+                     "title":  "Addictive Black Bass – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Black Bass"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch3\u003eAddictive Black Bass\u003c/h3\u003e\nEs un modelo ideal para cualquier deporte que suponga una exposición prolongada al sol, lo que la convierte en la gafa perfecta para apasionados de la pesca y la náutica gracias a sus lentes de policarbonato polarizadas.\n\nOtras características:\n\nPuente ajustable\nPeso: 23gr.\nMontura: TR90\n\n "
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-black-bass"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/04/black-bass-c2-scaled.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "85"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Black Bass"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/04/black-bass-c2-scaled.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas pesca",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-pesca"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Black Bass",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-black-bass"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-black-bass#product",
+                                                           "name":  "Addictive Black Bass",
+                                                           "url":  "https://gafasaddictive.com/addictive-black-bass",
+                                                           "description":  "Addictive Black Bass\r\nEs un modelo ideal para cualquier deporte que suponga una exposición prolongada al sol, lo que la convierte en la gafa perfecta para apasionados de la pesca y la náutica gracias a sus lentes de policarbonato polarizadas.\r\n\r\nOtras características:\r\n\r\nPuente ajustable\r\nPeso: 23gr.\r\nMontura: TR90\r\n\r\n\u0026amp;nbsp;",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2021/04/black-bass-c2-scaled.jpg",
+                                                           "sku":  8076,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "85.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-black-bass",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:05 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/8076\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=8076\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=8076; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive Black Bass – Gafas Addictive\nAnterior \nGafas ciclismo Addictive Galibier\nAddictive Black Bass\nEs un modelo ideal para cualquier deporte que suponga una exposición prolongada al sol, lo que la convierte en la gafa perfecta para apasionados de la pesca y la náutica gracias a sus lentes de policarbonato polarizadas.\nOtras características:\nPuente ajustable\nPeso: 23gr.\nMontura: TR90\nInformación adicional \nInformación adicional\nColor de Montura \nblanco-azul, negro, negro mate – azul, Negro-lima"
+}

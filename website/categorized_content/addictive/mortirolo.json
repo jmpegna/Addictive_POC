@@ -1,0 +1,143 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-mortirolo",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-mortirolo",
+                     "title":  "Addictive Mortirolo – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Mortirolo"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch3\u003eAddictive Mortirolo\u003c/h3\u003e\nHecha para proteger los ojos de los ciclistas.\n\nSu montura es superresistente gracias al Tr90 además garantiza máxima sujeción con su puente ajustable y el cordón de sujeción que lleva incluido."
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-mortirolo"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/04/MORTIROLO_C1-scaled.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "70"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Mortirolo"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/04/MORTIROLO_C1-scaled.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de ciclismo",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-ciclismo"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Mortirolo",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-mortirolo"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-mortirolo#product",
+                                                           "name":  "Addictive Mortirolo",
+                                                           "url":  "https://gafasaddictive.com/addictive-mortirolo",
+                                                           "description":  "Addictive Mortirolo\r\nHecha para proteger los ojos de los ciclistas.\r\n\r\nSu montura es superresistente gracias al Tr90 además garantiza máxima sujeción con su puente ajustable y el cordón de sujeción que lleva incluido.",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2021/04/MORTIROLO_C1-scaled.jpg",
+                                                           "sku":  8330,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "70.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-mortirolo",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "server":  "nginx",
+                                     "date":  "Thu, 15 Jan 2026 09:35:18 GMT",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "x-powered-by":  "PHP/7.4.33",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "pragma":  "no-cache",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/8330\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=8330\u003e; rel=shortlink",
+                                     "set-cookie":  "total_page=1; expires=Thu, 15-Jan-2026 11:35:17 GMT; Max-Age=7200\nwoostify_product_recently_viewed=376%7C8009%7C8330; path=/",
+                                     "vary":  "Accept-Encoding",
+                                     "content-encoding":  "gzip",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "x-firefox-spdy":  "h2"
+                                 }
+                 },
+    "text":  "Addictive Mortirolo – Gafas Addictive\nAddictive Mortirolo\nHecha para proteger los ojos de los ciclistas.\nSu montura es superresistente gracias al Tr90 además garantiza máxima sujeción con su puente ajustable y el cordón de sujeción que lleva incluido."
+}

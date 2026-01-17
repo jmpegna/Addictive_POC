@@ -1,0 +1,168 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-madeleine",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-madeleine",
+                     "title":  "Addictive Madeleine – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Madeleine"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch3\u003eAddictive Madeleine\u003c/h3\u003e\nEl modelo perfecto si te gusta salir a montar en bici en días muy soleados.\n\nCon su pantalla espejada conseguirás una protección única además de un gran campo de visión.\n\nDisponibles en blanco y en negro."
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-madeleine"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/04/madeleine-c2-scaled.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "72.25"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Madeleine"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/04/madeleine-c2-scaled.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de ciclismo",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-ciclismo"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Madeleine",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-madeleine"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-madeleine#product",
+                                                           "name":  "Addictive Madeleine",
+                                                           "url":  "https://gafasaddictive.com/addictive-madeleine",
+                                                           "description":  "Addictive Madeleine\r\nEl modelo perfecto si te gusta salir a montar en bici en días muy soleados.\r\n\r\nCon su pantalla espejada conseguirás una protección única además de un gran campo de visión.\r\n\r\nDisponibles en blanco y en negro.",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2021/04/madeleine-c2-scaled.jpg",
+                                                           "sku":  8103,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "AggregateOffer",
+                                                                              "lowPrice":  "72.25",
+                                                                              "highPrice":  "89.00",
+                                                                              "offerCount":  4,
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "priceType":  "https://schema.org/SalePrice",
+                                                                                                             "price":  "72.25",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-madeleine",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         },
+                                                                              "priceCurrency":  "EUR"
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  1
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Rocío"
+                                                                                         },
+                                                                              "reviewBody":  "Gafas de bici ideales para mujer. Las recomiendo.",
+                                                                              "datePublished":  "2021-08-30T13:07:06+02:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:18 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/8103\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=8103\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=8103; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive Madeleine – Gafas Addictive\nValorado con 5.00 de 5 en base a 1 valoración de un cliente\n(1 valoración de cliente) \nAddictive Madeleine\nEl modelo perfecto si te gusta salir a montar en bici en días muy soleados.\nCon su pantalla espejada conseguirás una protección única además de un gran campo de visión.\nDisponibles en blanco y en negro."
+}

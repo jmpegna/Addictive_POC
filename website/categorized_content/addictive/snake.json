@@ -1,0 +1,141 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-snake",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-snake",
+                     "title":  "Addictive Snake – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Snake"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch3\u003eAddictive Snake:\u003c/h3\u003e\n\u003cul\u003e\n \t\u003cli\u003eModelo diseñado especialmente para ciclistas.\u003c/li\u003e\n \t\u003cli\u003eClip interno ranurado.\u003c/li\u003e\n \t\u003cli\u003eMaterial montura TR90.\u003c/li\u003e\n \t\u003cli\u003eLentes de policarbonato espejados de espesor \u003cspan class=\"hiddenGrammarError\"\u003e1.8\u003c/span\u003e mm ventilados.\u003c/li\u003e\n \t\u003cli\u003ePuente ajustable.\u003c/li\u003e\n \t\u003cli\u003eVarillas antideslizantes.\u003c/li\u003e\n \t\u003cli\u003ePeso: \u003cspan class=\"hiddenGrammarError\"\u003e26g\u003c/span\u003e.\u003c/li\u003e\n\u003c/ul\u003e"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-snake"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/02/snake-negro-2-1.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "85"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Snake"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/02/snake-negro-2-1.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de ciclismo",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-ciclismo"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Snake",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-snake"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-snake#product",
+                                                           "name":  "Addictive Snake",
+                                                           "url":  "https://gafasaddictive.com/addictive-snake",
+                                                           "description":  "Addictive Snake:\r\n\r\n \tModelo diseñado especialmente para ciclistas.\r\n \tClip interno ranurado.\r\n \tMaterial montura TR90.\r\n \tLentes de policarbonato espejados de espesor 1.8 mm ventilados.\r\n \tPuente ajustable.\r\n \tVarillas antideslizantes.\r\n \tPeso: 26g.",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2021/02/snake-negro-2-1.jpg",
+                                                           "sku":  7268,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "85.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-snake",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:15 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/7268\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=7268\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=7268; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive Snake – Gafas Addictive\nAddictive Snake:\nModelo diseñado especialmente para ciclistas.\nClip interno ranurado.\nMaterial montura TR90.\nLentes de policarbonato espejados de espesor 1.8 mm ventilados.\nPuente ajustable.\nVarillas antideslizantes.\nPeso: 26g.\nInformación adicional \nInformación adicional\nColor de Montura \nAzul, negro-rojo\n\t\nProductos relacionados"
+}

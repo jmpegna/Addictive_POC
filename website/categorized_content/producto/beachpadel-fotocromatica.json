@@ -1,0 +1,128 @@
+{
+    "url":  "https://gafasaddictive.com/producto/addictive-beachpadel-fotocromatica",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/producto/addictive-beachpadel-fotocromatica",
+                     "title":  "Addictive BeachPadel Fotocromática – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive BeachPadel Fotocromática"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "Addictive BeachPadel es un modelo diseñado para deportes de raqueta.\n\nLa lente premium Photosport es nuestra lente más versátil, ya que se adaptan automáticamente a la intensidad solar ¡Olvídate de cambiar tus lentes!"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/producto/addictive-beachpadel-fotocromatica"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "95"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive BeachPadel Fotocromática"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/woocommerce-placeholder-300x180.png"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Sin categorizar",
+                                                                                                    "@id":  "https://gafasaddictive.com/comprar/sin-categorizar"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive BeachPadel Fotocromática",
+                                                                                                    "@id":  "https://gafasaddictive.com/producto/addictive-beachpadel-fotocromatica"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/producto/addictive-beachpadel-fotocromatica#product",
+                                                           "name":  "Addictive BeachPadel Fotocromática",
+                                                           "url":  "https://gafasaddictive.com/producto/addictive-beachpadel-fotocromatica",
+                                                           "description":  "Addictive BeachPadel es un modelo diseñado para deportes de raqueta.\r\n\r\nLa lente premium Photosport es nuestra lente más versátil, ya que se adaptan automáticamente a la intensidad solar ¡Olvídate de cambiar tus lentes!",
+                                                           "sku":  6983,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "95.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/producto/addictive-beachpadel-fotocromatica",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:55 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/6983\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=6983\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=6983; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive BeachPadel Fotocromática – Gafas Addictive\nAddictive BeachPadel es un modelo diseñado para deportes de raqueta.\nLa lente premium Photosport es nuestra lente más versátil, ya que se adaptan automáticamente a la intensidad solar ¡Olvídate de cambiar tus lentes!\nInformación adicional \nInformación adicional\nColor de Montura \namarillo, blanco, carbono, Fucsia, negro-rojo"
+}

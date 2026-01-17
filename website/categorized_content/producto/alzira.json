@@ -1,0 +1,90 @@
+{
+    "url":  "https://gafasaddictive.com/producto/addictive-alzira",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/producto/addictive-alzira",
+                     "title":  "Addictive Alzira – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Alzira"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch2\u003eAddictive Alzira\u003c/h2\u003e\n\u003cstrong\u003eMONTURA:\u003c/strong\u003e TR90 de doble inyeccion.\n\u003cstrong\u003eLENTES:\u003c/strong\u003e Policarbonato 1.8 mm\n\u003cstrong\u003ePESO: \u003c/strong\u003e26 gr.\n\nVarillas antideslizantes\n\nVentilada\n\n \n\n\u003cstrong\u003eCaracteristicas:\u003c/strong\u003e\n\nGafa muy resistente\n\nIdeal para multideporte\n\nCaras medias\n\nPuente antideslizante\n\n\u003cstrong\u003eGraduable directamente y SI Lentes premium\u003c/strong\u003e\n\n \n\n\u003cimg class=\"attachment-60x60  alignnone\" src=\"https://gafasaddictive.com/wp-content/uploads/2025/02/RX-Direct_50.png\" alt=\"\" width=\"151\" height=\"62\" /\u003e"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/producto/addictive-alzira"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2025/10/ALZIRA-C1_2.jpg"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Alzira"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2025/10/ALZIRA-C1_2.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@type":  "BreadcrumbList",
+                                        "itemListElement":  [
+                                                                {
+                                                                    "@type":  "ListItem",
+                                                                    "position":  1,
+                                                                    "item":  {
+                                                                                 "name":  "Inicio",
+                                                                                 "@id":  "https://gafasaddictive.com"
+                                                                             }
+                                                                },
+                                                                {
+                                                                    "@type":  "ListItem",
+                                                                    "position":  2,
+                                                                    "item":  {
+                                                                                 "name":  "Gafas deportivas",
+                                                                                 "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                             }
+                                                                },
+                                                                {
+                                                                    "@type":  "ListItem",
+                                                                    "position":  3,
+                                                                    "item":  {
+                                                                                 "name":  "Addictive Alzira",
+                                                                                 "@id":  "https://gafasaddictive.com/producto/addictive-alzira"
+                                                                             }
+                                                                }
+                                                            ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "server":  "nginx",
+                                     "date":  "Thu, 15 Jan 2026 09:33:48 GMT",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "x-powered-by":  "PHP/7.4.33",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "pragma":  "no-cache",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/14006\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=14006\u003e; rel=shortlink",
+                                     "set-cookie":  "total_page=1; expires=Thu, 15-Jan-2026 11:33:47 GMT; Max-Age=7200\nwoostify_product_recently_viewed=14055%7C14029%7C14006; path=/",
+                                     "vary":  "Accept-Encoding",
+                                     "content-encoding":  "gzip",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "x-firefox-spdy":  "h2"
+                                 }
+                 },
+    "text":  "Addictive Alzira – Gafas Addictive\nAddictive Alzira\nMONTURA: TR90 de doble inyeccion.\nLENTES: Policarbonato 1.8 mm\nPESO: 26 gr.\nVarillas antideslizantes\nVentilada\nCaracteristicas:\nGafa muy resistente\nIdeal para multideporte\nCaras medias\nPuente antideslizante\nGraduable directamente y SI Lentes premium"
+}

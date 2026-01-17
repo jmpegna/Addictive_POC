@@ -1,0 +1,178 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-aubisque",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-aubisque",
+                     "title":  "Gafas ciclismo Addictive Aubisque – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Gafas ciclismo Addictive Aubisque"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch4\u003eAddictive Aubisque:\u003c/h4\u003e\n\u003cul\u003e\n \t\u003cli\u003eModelo diseñado para ciclismo.\u003c/li\u003e\n \t\u003cli\u003eClip interno ranurado.\u003c/li\u003e\n \t\u003cli\u003eMaterial montura tr 90.\u003c/li\u003e\n \t\u003cli\u003eLentes de policarbonato espejados de espesor 1.8 mm ventilados.\u003c/li\u003e\n \t\u003cli\u003ePuente ajustable.\u003c/li\u003e\n \t\u003cli\u003eVarillas antideslizantes.\u003c/li\u003e\n \t\u003cli\u003ePeso: 29 g.\u003c/li\u003e\n\u003c/ul\u003e"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-aubisque"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/02/DSCN0844-scaled.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "72.25"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Gafas ciclismo Addictive Aubisque"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/02/DSCN0844-scaled.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de ciclismo",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-ciclismo"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas ciclismo Addictive Aubisque",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-aubisque"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-aubisque#product",
+                                                           "name":  "Gafas ciclismo Addictive Aubisque",
+                                                           "url":  "https://gafasaddictive.com/addictive-aubisque",
+                                                           "description":  "Addictive Aubisque:\r\n\r\n \tModelo diseñado para ciclismo.\r\n \tClip interno ranurado.\r\n \tMaterial montura tr 90.\r\n \tLentes de policarbonato espejados de espesor 1.8 mm ventilados.\r\n \tPuente ajustable.\r\n \tVarillas antideslizantes.\r\n \tPeso: 29 g.",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2021/02/DSCN0844-scaled.jpg",
+                                                           "sku":  7254,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "72.25",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-aubisque",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  2
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Jose Luis"
+                                                                                         },
+                                                                              "reviewBody":  "Es una buena gafa de ciclismo, me cubre toda la cara y apenas la noto.",
+                                                                              "datePublished":  "2022-05-26T10:28:35+02:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Paco J."
+                                                                                         },
+                                                                              "reviewBody":  "Curiosa gafa con curios nombre. Muy ligera, montura envolvente. Me gusta ya la recomiendo.",
+                                                                              "datePublished":  "2021-07-13T07:35:03+02:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:12 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/7254\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=7254\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=7254; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Gafas ciclismo Addictive Aubisque – Gafas Addictive\nValorado con 5.00 de 5 en base a 2 valoraciones de clientes\n(2 valoraciones de clientes) \nAddictive Aubisque:\nModelo diseñado para ciclismo.\nClip interno ranurado.\nMaterial montura tr 90.\nLentes de policarbonato espejados de espesor 1.8 mm ventilados.\nPuente ajustable.\nVarillas antideslizantes.\nPeso: 29 g."
+}

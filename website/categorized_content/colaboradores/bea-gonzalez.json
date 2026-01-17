@@ -1,0 +1,33 @@
+{
+    "url":  "https://gafasaddictive.com/colaboradores/bea-gonzalez",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/colaboradores/bea-gonzalez",
+                     "title":  "Bea González – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "website"
+                                       }
+                                   ],
+                     "jsonLd":  null,
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:34:37 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/pages/13764\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=13764\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "PHPSESSID=0n2vguh9plh68070g51e6ogk3p; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Bea González – Gafas Addictive\nLa perla de El Palo es Addicteam.\nLa jugadora española, actual número 6 del ranking mundial, en el que ha llegado al número 2, ha fichado por Addictive. \nY lo celebramos con un modelo exclusivo que hemos diseñado para ella. \nMás abajo puedes conseguirlo. \nLas Addictive Bea González"
+}

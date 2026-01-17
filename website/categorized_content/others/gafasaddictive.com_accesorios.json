@@ -1,0 +1,35 @@
+{
+    "url":  "https://gafasaddictive.com/accesorios",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/accesorios",
+                     "title":  "Accesorios – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "website"
+                                       }
+                                   ],
+                     "jsonLd":  null,
+                     "headers":  {
+                                     "server":  "nginx",
+                                     "date":  "Thu, 15 Jan 2026 09:36:04 GMT",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "x-powered-by":  "PHP/7.4.33",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "pragma":  "no-cache",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product_cat/259\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"",
+                                     "set-cookie":  "total_page=1; expires=Thu, 15-Jan-2026 11:36:04 GMT; Max-Age=7200",
+                                     "vary":  "Accept-Encoding",
+                                     "content-encoding":  "gzip",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "x-firefox-spdy":  "h2"
+                                 }
+                 },
+    "text":  "Accesorios – Gafas Addictive\nGafas Addictive\nAv. de la Alcarria, 12, 28806 Alcalá de Henares, Madrid"
+}

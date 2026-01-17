@@ -1,0 +1,33 @@
+{
+    "url":  "https://gafasaddictive.com/gafas-deportivas-ninos",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/gafas-deportivas-ninos",
+                     "title":  "Gafas deportivas para niños – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "website"
+                                       }
+                                   ],
+                     "jsonLd":  null,
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:34:50 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product_cat/203\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "PHPSESSID=rmiq3e6tn0oiuqgu0mr9ma2v8v; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Gafas deportivas para niños – Gafas Addictive\nGafas Addictive\nAv. de la Alcarria, 12, 28806 Alcalá de Henares, Madrid"
+}

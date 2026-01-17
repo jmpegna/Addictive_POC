@@ -1,0 +1,136 @@
+{
+    "url":  "https://gafasaddictive.com/producto/addictive-singletrack",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/producto/addictive-singletrack",
+                     "title":  "Addictive SingleTrack – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive SingleTrack"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "Gafas Addictive SingleTrack: perfectas para MTB y ciclismo carretera. Recomendada para caras medias. Negras fotocromáticas Blancas espejadas.\n\n\u003cblockquote\u003e\n\u003ch3\u003e\u003cstrong\u003eEncuentra tu distribuidor más cercano pinchando aquí\u003c/strong\u003e\u003c/h3\u003e\n\u003ch3\u003e\u003cstrong\u003e\u003ca href=\"https://gafasaddictive.com/distribuidores\"\u003eDistribuidores Addictive\u003c/a\u003e\u003c/strong\u003e\u003c/h3\u003e\n\u003c/blockquote\u003e"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/producto/addictive-singletrack"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/09/addictive-single-track-5.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "85"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive SingleTrack"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/09/addictive-single-track-5.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de ciclismo",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-ciclismo"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive SingleTrack",
+                                                                                                    "@id":  "https://gafasaddictive.com/producto/addictive-singletrack"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/producto/addictive-singletrack#product",
+                                                           "name":  "Addictive SingleTrack",
+                                                           "url":  "https://gafasaddictive.com/producto/addictive-singletrack",
+                                                           "description":  "Gafas Addictive SingleTrack: perfectas para MTB y ciclismo carretera. Recomendada para caras medias. Negras fotocromáticas Blancas espejadas.\n\n\nEncuentra tu distribuidor más cercano pinchando aquí\nDistribuidores Addictive",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2022/09/addictive-single-track-5.jpg",
+                                                           "sku":  12234,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "AggregateOffer",
+                                                                              "lowPrice":  "85.00",
+                                                                              "highPrice":  "105.00",
+                                                                              "offerCount":  2,
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/producto/addictive-singletrack",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         },
+                                                                              "priceCurrency":  "EUR"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:31 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/12234\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=12234\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=12234; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive SingleTrack – Gafas Addictive\nGafas Addictive SingleTrack: perfectas para MTB y ciclismo carretera. Recomendada para caras medias. Negras fotocromáticas Blancas espejadas.\nEncuentra tu distribuidor más cercano pinchando aquí\nDistribuidores Addictive"
+}

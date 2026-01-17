@@ -1,0 +1,165 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-jerry",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-jerry",
+                     "title":  "Addictive Jerry – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Jerry"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch4\u003eAddictive Jerry una gafa cuatro combinaciones\u003c/h4\u003e\nEste modelo está diseñado para los ciclistas más exigentes.\n\nDisponible en 3 colores. Cada montura viene de serie con 2 pantallas: Una espejada y otra fotocromática de 1,8 mm de grosor ¡Muy fáciles de cambiar!\n\nIncluye otro puente ajustable para colocar a la pantalla si deseas llevar la gafa sin la parte inferior de la montura."
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-jerry"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/05/JERRY-C3-scaled.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "105"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Jerry"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/05/JERRY-C3-scaled.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de ciclismo",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-ciclismo"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Jerry",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-jerry"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-jerry#product",
+                                                           "name":  "Addictive Jerry",
+                                                           "url":  "https://gafasaddictive.com/addictive-jerry",
+                                                           "description":  "Addictive Jerry una gafa cuatro combinaciones\r\nEste modelo está diseñado para los ciclistas más exigentes.\r\n\r\nDisponible en 3 colores. Cada montura viene de serie con 2 pantallas: Una espejada y otra fotocromática de 1,8 mm de grosor ¡Muy fáciles de cambiar!\r\n\r\nIncluye otro puente ajustable para colocar a la pantalla si deseas llevar la gafa sin la parte inferior de la montura.",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2021/05/JERRY-C3-scaled.jpg",
+                                                           "sku":  8592,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "105.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-jerry",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  1
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Enrique M."
+                                                                                         },
+                                                                              "reviewBody":  "Tuve reparos a la hora de comprar la gafa, no es que sea especialmente barata y no cnocía la marca,, pero me la recomendo un amigo que la usa para padel. Cuando te llegan a casa tienes la sesancion de estar a ante una gafa de calidad, el paquete, la funda, todo. como si fuera una oakley o algo parecido. \r\nMuy conyento y espero que me dure mucho para mis salidas por la montaña",
+                                                                              "datePublished":  "2021-11-11T00:34:47+01:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "server":  "nginx",
+                                     "date":  "Thu, 15 Jan 2026 09:35:47 GMT",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "x-powered-by":  "PHP/7.4.33",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "pragma":  "no-cache",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/8592\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=8592\u003e; rel=shortlink",
+                                     "set-cookie":  "total_page=1; expires=Thu, 15-Jan-2026 11:35:46 GMT; Max-Age=7200\nwoostify_product_recently_viewed=8009%7C8330%7C10658%7C8592; path=/",
+                                     "vary":  "Accept-Encoding",
+                                     "content-encoding":  "gzip",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "x-firefox-spdy":  "h2"
+                                 }
+                 },
+    "text":  "Addictive Jerry – Gafas Addictive\nValorado con 5.00 de 5 en base a 1 valoración de un cliente\n(1 valoración de cliente) \nAddictive Jerry una gafa cuatro combinaciones\nEste modelo está diseñado para los ciclistas más exigentes.\nDisponible en 3 colores. Cada montura viene de serie con 2 pantallas: Una espejada y otra fotocromática de 1,8 mm de grosor ¡Muy fáciles de cambiar!\nIncluye otro puente ajustable para colocar a la pantalla si deseas llevar la gafa sin la parte inferior de la montura.\nInformación adicional \nInformación adicional\nColor de Montura \nnegro mate, negro-amarillo fluor, rojo mate"
+}

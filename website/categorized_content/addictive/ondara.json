@@ -1,0 +1,173 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-ondara",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-ondara",
+                     "title":  "Addictive Ondara – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Ondara"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch2\u003eAddictive Ondara\u003c/h2\u003e\nEs un modelo versátil especialmente indicado para \u003cstrong\u003epádel y running\u003c/strong\u003e.\n\nJuego de lentes ventiladas y espejadas de 1,8 mm y otro juego de lentes transparentes de REGALO.\n\nLa montura está hecha en \u003cstrong\u003eTR90\u003c/strong\u003e y pesa \u003cstrong\u003e21 gr\u003c/strong\u003e."
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-ondara"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/12/addictive-ONDARA-blanco.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "85"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Ondara"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/12/addictive-ONDARA-blanco.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de padel",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-de-padel"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Ondara",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-ondara"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-ondara#product",
+                                                           "name":  "Addictive Ondara",
+                                                           "url":  "https://gafasaddictive.com/addictive-ondara",
+                                                           "description":  "Addictive Ondara\r\nEs un modelo versátil especialmente indicado para pádel y running.\r\n\r\nJuego de lentes ventiladas y espejadas de 1,8 mm y otro juego de lentes transparentes de REGALO.\r\n\r\nLa montura está hecha en TR90 y pesa 21 gr.",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2021/12/addictive-ONDARA-blanco.jpg",
+                                                           "sku":  8052,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "AggregateOffer",
+                                                                              "lowPrice":  "85.00",
+                                                                              "highPrice":  "90.00",
+                                                                              "offerCount":  5,
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-ondara",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         },
+                                                                              "priceCurrency":  "EUR"
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  2
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Alicia"
+                                                                                         },
+                                                                              "reviewBody":  "la uso para montar en bici y para salir a correr. Muy cómoda, la verdad.",
+                                                                              "datePublished":  "2022-01-02T10:50:44+01:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Jesús Manuel"
+                                                                                         },
+                                                                              "reviewBody":  "Una de las mejores gafas en calidad precio que he visto en mucho tiempo ( y yo tengo muchos pares en casa).",
+                                                                              "datePublished":  "2021-07-05T22:51:51+02:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:28 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/8052\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=8052\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=8052; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive Ondara – Gafas Addictive\nValorado con 5.00 de 5 en base a 2 valoraciones de clientes\n(2 valoraciones de clientes) \nAddictive Ondara\nEs un modelo versátil especialmente indicado para pádel y running.\nJuego de lentes ventiladas y espejadas de 1,8 mm y otro juego de lentes transparentes de REGALO.\nLa montura está hecha en TR90 y pesa 21 gr."
+}

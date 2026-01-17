@@ -1,0 +1,163 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-breathe",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-breathe",
+                     "title":  "Addictive Breathe – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Breathe"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003cstrong\u003eGafas Addictive Breathe\u003c/strong\u003e\n\nGafas con lentes ventiladas que favorecen la transpiración y reducen el empañamiento.\n\nDisponible en cinco colores. Elige tu favorito pinchando sobre la miniatura que indica: COLOR DE MONTURA.\n\n\u003cstrong\u003eTodos los modelos vienen con una pareja extra de lentes transparentes gratis.\u003c/strong\u003e\n\nSi además, quieres unas lentes premium selecciona la que desees.\n\nPROTECCIÓN 100% UVA/B\n\nRecomendada para caras estándar y delgadas. Consulta las medidas en la foto de la galería.\n\nENVÍO GRATIS"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-breathe"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/12/breathe-carbono-lima.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "85"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Breathe"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2022/12/breathe-carbono-lima.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de ciclismo",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-ciclismo"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Breathe",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-breathe"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-breathe#product",
+                                                           "name":  "Addictive Breathe",
+                                                           "url":  "https://gafasaddictive.com/addictive-breathe",
+                                                           "description":  "Gafas Addictive Breathe\r\n\r\nGafas con lentes ventiladas que favorecen la transpiración y reducen el empañamiento.\r\n\r\nDisponible en cinco colores. Elige tu favorito pinchando sobre la miniatura que indica: COLOR DE MONTURA.\r\n\r\nTodos los modelos vienen con una pareja extra de lentes transparentes gratis.\r\n\r\nSi además, quieres unas lentes premium selecciona la que desees.\r\n\r\nPROTECCIÓN 100% UVA/B\r\n\r\nRecomendada para caras estándar y delgadas. Consulta las medidas en la foto de la galería.\r\n\r\nENVÍO GRATIS",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2022/12/breathe-carbono-lima.jpg",
+                                                           "sku":  "addver-1",
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "85.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-breathe",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  1
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Diego"
+                                                                                         },
+                                                                              "reviewBody":  "Satisfecho con la compra, cristales con agujeros para reducir el vaho. para repetir.",
+                                                                              "datePublished":  "2020-08-05T19:19:35+02:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:01 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/4670\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=4670\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=4670; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive Breathe – Gafas Addictive\nValorado con 5.00 de 5 en base a 1 valoración de un cliente\n(1 valoración de cliente) \nGafas Addictive Breathe\nGafas con lentes ventiladas que favorecen la transpiración y reducen el empañamiento.\nDisponible en cinco colores. Elige tu favorito pinchando sobre la miniatura que indica: COLOR DE MONTURA.\nTodos los modelos vienen con una pareja extra de lentes transparentes gratis.\nSi además, quieres unas lentes premium selecciona la que desees.\nPROTECCIÓN 100% UVA/B\nRecomendada para caras estándar y delgadas. Consulta las medidas en la foto de la galería.\nENVÍO GRATIS"
+}

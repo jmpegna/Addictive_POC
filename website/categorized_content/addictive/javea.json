@@ -1,0 +1,195 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-javea",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-javea",
+                     "title":  "Addictive Javea – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Javea"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003ch2\u003eAddictive Javea\u003c/h2\u003e\nEs un \u003cstrong\u003emodelo multideporte\u003c/strong\u003e que ofrece máxima protección gracias a sus características técnicas:\n\u003cul\u003e\n \t\u003cli\u003eMONTURA: TR90\u003c/li\u003e\n \t\u003cli\u003eLENTES: POLICARBONATO 1,8 mm ESPEJADO SEGUNDO PAR TRANSPARENTE ANTIRREFLEJANTE\u003c/li\u003e\n \t\u003cli\u003ePESO: 22 Gr\u003c/li\u003e\n\u003c/ul\u003e\nIdeal para rostros \u003cstrong\u003emedianos\u003c/strong\u003e."
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-javea"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/12/addictive-Javea-blanco-azul.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "85"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Javea"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2021/12/addictive-Javea-blanco-azul.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de padel",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-de-padel"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Javea",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-javea"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-javea#product",
+                                                           "name":  "Addictive Javea",
+                                                           "url":  "https://gafasaddictive.com/addictive-javea",
+                                                           "description":  "Addictive Javea\r\nEs un modelo multideporte que ofrece máxima protección gracias a sus características técnicas:\r\n\r\n \tMONTURA: TR90\r\n \tLENTES: POLICARBONATO 1,8 mm ESPEJADO SEGUNDO PAR TRANSPARENTE ANTIRREFLEJANTE\r\n \tPESO: 22 Gr\r\n\r\nIdeal para rostros medianos.",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2021/12/addictive-Javea-blanco-azul.jpg",
+                                                           "sku":  8009,
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "Offer",
+                                                                              "priceSpecification":  [
+                                                                                                         {
+                                                                                                             "@type":  "UnitPriceSpecification",
+                                                                                                             "price":  "85.00",
+                                                                                                             "priceCurrency":  "EUR",
+                                                                                                             "valueAddedTaxIncluded":  true,
+                                                                                                             "validThrough":  "2027-12-31"
+                                                                                                         }
+                                                                                                     ],
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-javea",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         }
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  3
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Miguel Fernández"
+                                                                                         },
+                                                                              "reviewBody":  "Muy satisfecho. Graduada para 4 dioptrías de miopía con lentes fotocromaticas. Muy ligera y cómoda.",
+                                                                              "datePublished":  "2022-07-01T14:23:03+02:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Teo"
+                                                                                         },
+                                                                              "reviewBody":  "Buenas gafas deportivas, cómodas y estan bien de precio. Gracias por el rapido envio.",
+                                                                              "datePublished":  "2022-02-02T14:50:57+01:00"
+                                                                          },
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Nuno Quelhas"
+                                                                                         },
+                                                                              "reviewBody":  "LAS GAFAS SON INCREÍBLES!\r\nHan cambiado mi juego, simplemente porque me han echo olvidar de mis ojos durante el partido, cuando antes mi quedava ciego por las luces o el sol y perdia la pelota y la referencia de la cancha…\r\nAparte qué me han salvado de un pelotazo justo en la primera vez que las puso!\r\nTanto las lentes de outdoor, cómo las de indoor tienen un efecto extraordinário! Recomendo a TODA LA GENTE! Mismo a los que piensan que non las necesitan!",
+                                                                              "datePublished":  "2021-10-09T01:34:21+02:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "server":  "nginx",
+                                     "date":  "Thu, 15 Jan 2026 09:35:12 GMT",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "x-powered-by":  "PHP/7.4.33",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "pragma":  "no-cache",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/8009\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=8009\u003e; rel=shortlink",
+                                     "set-cookie":  "total_page=1; expires=Thu, 15-Jan-2026 11:35:11 GMT; Max-Age=7200\nwoostify_product_recently_viewed=376%7C8009; path=/",
+                                     "vary":  "Accept-Encoding",
+                                     "content-encoding":  "gzip",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "x-firefox-spdy":  "h2"
+                                 }
+                 },
+    "text":  "Addictive Javea – Gafas Addictive\nValorado con 5.00 de 5 en base a 3 valoraciones de clientes\n(3 valoraciones de clientes) \nAddictive Javea\nEs un modelo multideporte que ofrece máxima protección gracias a sus características técnicas:\nMONTURA: TR90\nLENTES: POLICARBONATO 1,8 mm ESPEJADO SEGUNDO PAR TRANSPARENTE ANTIRREFLEJANTE\nPESO: 22 Gr\nIdeal para rostros medianos."
+}

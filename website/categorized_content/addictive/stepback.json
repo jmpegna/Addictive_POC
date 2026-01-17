@@ -1,0 +1,158 @@
+{
+    "url":  "https://gafasaddictive.com/addictive-stepback",
+    "metadata":  {
+                     "canonicalUrl":  "https://gafasaddictive.com/addictive-stepback",
+                     "title":  "Addictive Stepback – Gafas Addictive",
+                     "description":  null,
+                     "author":  null,
+                     "keywords":  null,
+                     "languageCode":  "es",
+                     "openGraph":  [
+                                       {
+                                           "property":  "og:type",
+                                           "content":  "product"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Stepback"
+                                       },
+                                       {
+                                           "property":  "og:description",
+                                           "content":  "\u003cstrong\u003eAddictive Stepback\u003c/strong\u003e: una gafa completa para todos tus deportes. Cristales 100% protección UVA/B\n\nMontura carbono-rojo: lentes transparentes con antirreflejante\n\nMonturas gris-azul, blanca-naranja, griz-azul y negra-rosa: lentes espejadas.\n\nRecomendada para caras estándar y delgadas . Consulta las medidas en la foto de la galería.\n\nPincha en el triangulito del vídeo que aparece en la foto principal si quieres ver mejor la gafa para ayudarte a decidirte.\n\nENVÍO GRATIS"
+                                       },
+                                       {
+                                           "property":  "og:url",
+                                           "content":  "https://gafasaddictive.com/addictive-stepback"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2020/05/addictive-stepback-carbono-rojo-1.jpg"
+                                       },
+                                       {
+                                           "property":  "og:price",
+                                           "content":  "75"
+                                       },
+                                       {
+                                           "property":  "og:currency",
+                                           "content":  "EUR"
+                                       },
+                                       {
+                                           "property":  "og:title",
+                                           "content":  "Addictive Stepback"
+                                       },
+                                       {
+                                           "property":  "og:image",
+                                           "content":  "https://gafasaddictive.com/wp-content/uploads/2020/05/addictive-stepback-carbono-rojo-1.jpg"
+                                       }
+                                   ],
+                     "jsonLd":  [
+                                    {
+                                        "@context":  "https://schema.org/",
+                                        "@graph":  [
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "BreadcrumbList",
+                                                           "itemListElement":  [
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  1,
+                                                                                       "item":  {
+                                                                                                    "name":  "Inicio",
+                                                                                                    "@id":  "https://gafasaddictive.com"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  2,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas deportivas",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-deportivas"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  3,
+                                                                                       "item":  {
+                                                                                                    "name":  "Gafas de golf",
+                                                                                                    "@id":  "https://gafasaddictive.com/gafas-golf"
+                                                                                                }
+                                                                                   },
+                                                                                   {
+                                                                                       "@type":  "ListItem",
+                                                                                       "position":  4,
+                                                                                       "item":  {
+                                                                                                    "name":  "Addictive Stepback",
+                                                                                                    "@id":  "https://gafasaddictive.com/addictive-stepback"
+                                                                                                }
+                                                                                   }
+                                                                               ]
+                                                       },
+                                                       {
+                                                           "@context":  "https://schema.org/",
+                                                           "@type":  "Product",
+                                                           "@id":  "https://gafasaddictive.com/addictive-stepback#product",
+                                                           "name":  "Addictive Stepback",
+                                                           "url":  "https://gafasaddictive.com/addictive-stepback",
+                                                           "description":  "Addictive Stepback: una gafa completa para todos tus deportes. Cristales 100% protección UVA/B\r\n\r\nMontura carbono-rojo: lentes transparentes con antirreflejante\r\n\r\nMonturas gris-azul, blanca-naranja, griz-azul y negra-rosa: lentes espejadas.\r\n\r\nRecomendada para caras estándar y delgadas . Consulta las medidas en la foto de la galería.\r\n\r\nPincha en el triangulito del vídeo que aparece en la foto principal si quieres ver mejor la gafa para ayudarte a decidirte.\r\n\r\nENVÍO GRATIS",
+                                                           "image":  "https://gafasaddictive.com/wp-content/uploads/2020/05/addictive-stepback-carbono-rojo-1.jpg",
+                                                           "sku":  "addste",
+                                                           "offers":  [
+                                                                          {
+                                                                              "@type":  "AggregateOffer",
+                                                                              "lowPrice":  "75.00",
+                                                                              "highPrice":  "104.00",
+                                                                              "offerCount":  65,
+                                                                              "priceValidUntil":  "2027-12-31",
+                                                                              "availability":  "https://schema.org/InStock",
+                                                                              "url":  "https://gafasaddictive.com/addictive-stepback",
+                                                                              "seller":  {
+                                                                                             "@type":  "Organization",
+                                                                                             "name":  "Gafas Addictive",
+                                                                                             "url":  "https://gafasaddictive.com"
+                                                                                         },
+                                                                              "priceCurrency":  "EUR"
+                                                                          }
+                                                                      ],
+                                                           "aggregateRating":  {
+                                                                                   "@type":  "AggregateRating",
+                                                                                   "ratingValue":  "5.00",
+                                                                                   "reviewCount":  1
+                                                                               },
+                                                           "review":  [
+                                                                          {
+                                                                              "@type":  "Review",
+                                                                              "reviewRating":  {
+                                                                                                   "@type":  "Rating",
+                                                                                                   "bestRating":  "5",
+                                                                                                   "ratingValue":  "5",
+                                                                                                   "worstRating":  "1"
+                                                                                               },
+                                                                              "author":  {
+                                                                                             "@type":  "Person",
+                                                                                             "name":  "Ibai"
+                                                                                         },
+                                                                              "reviewBody":  "Buena gafa a buen precio. Yo las gradue y el cambio de ver regular a ver bien es como la noche y el día",
+                                                                              "datePublished":  "2022-01-13T10:42:57+01:00"
+                                                                          }
+                                                                      ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "headers":  {
+                                     "cache-control":  "no-store, no-cache, must-revalidate",
+                                     "content-type":  "text/html; charset=UTF-8",
+                                     "date":  "Thu, 15 Jan 2026 09:35:04 GMT",
+                                     "expires":  "Thu, 19 Nov 1981 08:52:00 GMT",
+                                     "link":  "\u003chttps://gafasaddictive.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://gafasaddictive.com/wp-json/wp/v2/product/2584\u003e; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", \u003chttps://gafasaddictive.com/?p=2584\u003e; rel=shortlink",
+                                     "permissions-policy":  "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+                                     "pragma":  "no-cache",
+                                     "server":  "nginx",
+                                     "set-cookie":  "woostify_product_recently_viewed=2584; path=/",
+                                     "strict-transport-security":  "max-age=31536000",
+                                     "vary":  "Accept-Encoding",
+                                     "x-powered-by":  "PHP/7.4.33"
+                                 }
+                 },
+    "text":  "Addictive Stepback – Gafas Addictive\nValorado con 5.00 de 5 en base a 1 valoración de un cliente\n(1 valoración de cliente) \nAddictive Stepback: una gafa completa para todos tus deportes. Cristales 100% protección UVA/B\nMontura carbono-rojo: lentes transparentes con antirreflejante\nMonturas gris-azul, blanca-naranja, griz-azul y negra-rosa: lentes espejadas.\nRecomendada para caras estándar y delgadas . Consulta las medidas en la foto de la galería.\nPincha en el triangulito del vídeo que aparece en la foto principal si quieres ver mejor la gafa para ayudarte a decidirte.\nENVÍO GRATIS"
+}
