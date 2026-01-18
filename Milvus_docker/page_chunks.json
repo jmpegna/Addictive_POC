@@ -1,0 +1,632 @@
+{
+  "collection_name": "page_chunks",
+  "schema": {
+    "fields": [
+      {
+        "type_params": [
+          {
+            "key": "max_length",
+            "value": "16"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "100",
+        "name": "source",
+        "is_primary_key": false,
+        "description": "Metadata String field",
+        "data_type": "VarChar",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 21,
+        "_placeholderType": 21,
+        "max_length": "16",
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": 16
+      },
+      {
+        "type_params": [
+          {
+            "key": "max_length",
+            "value": "16"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "101",
+        "name": "blobType",
+        "is_primary_key": false,
+        "description": "Metadata String field",
+        "data_type": "VarChar",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 21,
+        "_placeholderType": 21,
+        "max_length": "16",
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": 16
+      },
+      {
+        "type_params": [],
+        "index_params": [],
+        "fieldID": "102",
+        "name": "line",
+        "is_primary_key": false,
+        "description": "Metadata Number field",
+        "data_type": "Float",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 10,
+        "_placeholderType": 10,
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": -1
+      },
+      {
+        "type_params": [
+          {
+            "key": "max_length",
+            "value": "1024"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "103",
+        "name": "loc",
+        "is_primary_key": false,
+        "description": "Metadata JSON field",
+        "data_type": "VarChar",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 21,
+        "_placeholderType": 21,
+        "max_length": "1024",
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": 1024
+      },
+      {
+        "type_params": [
+          {
+            "key": "max_length",
+            "value": "1024"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "104",
+        "name": "metadata",
+        "is_primary_key": false,
+        "description": "Metadata JSON field",
+        "data_type": "VarChar",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 21,
+        "_placeholderType": 21,
+        "max_length": "1012",
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": 1024
+      },
+      {
+        "type_params": [],
+        "index_params": [],
+        "fieldID": "105",
+        "name": "langchain_primaryid",
+        "is_primary_key": true,
+        "description": "Primary key",
+        "data_type": "Int64",
+        "autoID": true,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 5,
+        "_placeholderType": 5,
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": -1
+      },
+      {
+        "type_params": [
+          {
+            "key": "max_length",
+            "value": "4096"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "106",
+        "name": "langchain_text",
+        "is_primary_key": false,
+        "description": "Text field",
+        "data_type": "VarChar",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 21,
+        "_placeholderType": 21,
+        "max_length": "4096",
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": 4096
+      },
+      {
+        "type_params": [
+          {
+            "key": "dim",
+            "value": "1536"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "107",
+        "name": "langchain_vector",
+        "is_primary_key": false,
+        "description": "Vector field",
+        "data_type": "FloatVector",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 101,
+        "_placeholderType": 101,
+        "dim": "1536",
+        "indexes": [
+          {
+            "params": [
+              {
+                "key": "index_type",
+                "value": "HNSW"
+              },
+              {
+                "key": "metric_type",
+                "value": "L2"
+              },
+              {
+                "key": "params",
+                "value": "{\"M\":8,\"efConstruction\":64}"
+              }
+            ],
+            "index_name": "langchain_vector",
+            "indexID": "463616805575674301",
+            "field_name": "langchain_vector",
+            "indexed_rows": "0",
+            "total_rows": "0",
+            "state": "Finished",
+            "index_state_fail_reason": "",
+            "pending_index_rows": "0",
+            "min_index_version": 2147483647,
+            "max_index_version": -2147483648,
+            "indexType": "HNSW",
+            "metricType": "L2",
+            "indexParameterPairs": [
+              {
+                "key": "index_type",
+                "value": "HNSW"
+              },
+              {
+                "key": "metric_type",
+                "value": "L2"
+              },
+              {
+                "key": "M",
+                "value": 8
+              },
+              {
+                "key": "efConstruction",
+                "value": 64
+              }
+            ]
+          }
+        ],
+        "dimension": 1536,
+        "maxCapacity": -1,
+        "maxLength": -1
+      }
+    ],
+    "properties": [],
+    "functions": [],
+    "struct_array_fields": [],
+    "name": "page_chunks",
+    "description": "",
+    "autoID": false,
+    "enable_dynamic_field": false,
+    "dbName": "",
+    "version": 0,
+    "external_source": "",
+    "external_spec": "",
+    "primaryField": {
+      "type_params": [],
+      "index_params": [],
+      "fieldID": "105",
+      "name": "langchain_primaryid",
+      "is_primary_key": true,
+      "description": "Primary key",
+      "data_type": "Int64",
+      "autoID": true,
+      "state": "FieldCreated",
+      "element_type": "None",
+      "default_value": null,
+      "is_dynamic": false,
+      "is_partition_key": false,
+      "is_clustering_key": false,
+      "nullable": false,
+      "is_function_output": false,
+      "external_field": "",
+      "dataType": 5,
+      "_placeholderType": 5,
+      "indexes": [],
+      "dimension": -1,
+      "maxCapacity": -1,
+      "maxLength": -1
+    },
+    "hasVectorIndex": true,
+    "enablePartitionKey": false,
+    "scalarFields": [
+      {
+        "type_params": [
+          {
+            "key": "max_length",
+            "value": "16"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "100",
+        "name": "source",
+        "is_primary_key": false,
+        "description": "Metadata String field",
+        "data_type": "VarChar",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 21,
+        "_placeholderType": 21,
+        "max_length": "16",
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": 16
+      },
+      {
+        "type_params": [
+          {
+            "key": "max_length",
+            "value": "16"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "101",
+        "name": "blobType",
+        "is_primary_key": false,
+        "description": "Metadata String field",
+        "data_type": "VarChar",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 21,
+        "_placeholderType": 21,
+        "max_length": "16",
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": 16
+      },
+      {
+        "type_params": [],
+        "index_params": [],
+        "fieldID": "102",
+        "name": "line",
+        "is_primary_key": false,
+        "description": "Metadata Number field",
+        "data_type": "Float",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 10,
+        "_placeholderType": 10,
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": -1
+      },
+      {
+        "type_params": [
+          {
+            "key": "max_length",
+            "value": "1024"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "103",
+        "name": "loc",
+        "is_primary_key": false,
+        "description": "Metadata JSON field",
+        "data_type": "VarChar",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 21,
+        "_placeholderType": 21,
+        "max_length": "1024",
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": 1024
+      },
+      {
+        "type_params": [
+          {
+            "key": "max_length",
+            "value": "1024"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "104",
+        "name": "metadata",
+        "is_primary_key": false,
+        "description": "Metadata JSON field",
+        "data_type": "VarChar",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 21,
+        "_placeholderType": 21,
+        "max_length": "1024",
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": 1024
+      },
+      {
+        "type_params": [],
+        "index_params": [],
+        "fieldID": "105",
+        "name": "langchain_primaryid",
+        "is_primary_key": true,
+        "description": "Primary key",
+        "data_type": "Int64",
+        "autoID": true,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 5,
+        "_placeholderType": 5,
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": -1
+      },
+      {
+        "type_params": [
+          {
+            "key": "max_length",
+            "value": "4096"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "106",
+        "name": "langchain_text",
+        "is_primary_key": false,
+        "description": "Text field",
+        "data_type": "VarChar",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 21,
+        "_placeholderType": 21,
+        "max_length": "4096",
+        "indexes": [],
+        "dimension": -1,
+        "maxCapacity": -1,
+        "maxLength": 4096
+      }
+    ],
+    "vectorFields": [
+      {
+        "type_params": [
+          {
+            "key": "dim",
+            "value": "1536"
+          }
+        ],
+        "index_params": [],
+        "fieldID": "107",
+        "name": "langchain_vector",
+        "is_primary_key": false,
+        "description": "Vector field",
+        "data_type": "FloatVector",
+        "autoID": false,
+        "state": "FieldCreated",
+        "element_type": "None",
+        "default_value": null,
+        "is_dynamic": false,
+        "is_partition_key": false,
+        "is_clustering_key": false,
+        "nullable": false,
+        "is_function_output": false,
+        "external_field": "",
+        "dataType": 101,
+        "_placeholderType": 101,
+        "dim": "1536",
+        "indexes": [
+          {
+            "params": [
+              {
+                "key": "index_type",
+                "value": "HNSW"
+              },
+              {
+                "key": "metric_type",
+                "value": "L2"
+              },
+              {
+                "key": "params",
+                "value": "{\"M\":8,\"efConstruction\":64}"
+              }
+            ],
+            "index_name": "langchain_vector",
+            "indexID": "463616805575674301",
+            "field_name": "langchain_vector",
+            "indexed_rows": "0",
+            "total_rows": "0",
+            "state": "Finished",
+            "index_state_fail_reason": "",
+            "pending_index_rows": "0",
+            "min_index_version": 2147483647,
+            "max_index_version": -2147483648,
+            "indexType": "HNSW",
+            "metricType": "L2",
+            "indexParameterPairs": [
+              {
+                "key": "index_type",
+                "value": "HNSW"
+              },
+              {
+                "key": "metric_type",
+                "value": "L2"
+              },
+              {
+                "key": "M",
+                "value": 8
+              },
+              {
+                "key": "efConstruction",
+                "value": 64
+              }
+            ]
+          }
+        ],
+        "dimension": 1536,
+        "maxCapacity": -1,
+        "maxLength": -1
+      }
+    ],
+    "functionFields": [],
+    "dynamicFields": []
+  },
+  "rowCount": 0,
+  "createdTime": 1768700726599,
+  "update_timestamp": 1768700726599,
+  "aliases": [],
+  "description": "",
+  "autoID": true,
+  "id": "463616805575674296",
+  "loadedPercentage": -1,
+  "consistency_level": "Bounded",
+  "replicas": [],
+  "loaded": false,
+  "status": "unloaded",
+  "properties": [],
+  "shards_num": 1,
+  "_schemaVersion": 1
+}
