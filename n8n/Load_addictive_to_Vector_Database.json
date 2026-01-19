@@ -1,5 +1,5 @@
 {
-  "name": "GafasAddictive Drive -> Milvus (page_chunks + products)",
+  "name": "Load_addictive_to_Vector_Database",
   "nodes": [
     {
       "parameters": {
@@ -14,8 +14,8 @@
       "type": "n8n-nodes-base.googleDrive",
       "typeVersion": 3,
       "position": [
-        -176,
-        224
+        -192,
+        568
       ],
       "id": "48f816b1-4931-47c6-8a72-3e07d29c2371",
       "name": "Search files and folders",
@@ -32,7 +32,7 @@
       "typeVersion": 1,
       "position": [
         -416,
-        224
+        568
       ],
       "id": "df918fdf-dc0d-4df3-afc2-ad39002098db",
       "name": "When clicking ‘Execute workflow’"
@@ -50,8 +50,8 @@
       "type": "n8n-nodes-base.googleDrive",
       "typeVersion": 3,
       "position": [
-        320,
-        0
+        256,
+        376
       ],
       "id": "12a8bbd3-23d0-4c30-8111-0bc78e8c1b5c",
       "name": "Download file",
@@ -73,8 +73,8 @@
       "type": "n8n-nodes-base.moveBinaryData",
       "typeVersion": 1,
       "position": [
-        448,
-        192
+        480,
+        376
       ]
     },
     {
@@ -85,7 +85,7 @@
       "typeVersion": 3,
       "position": [
         32,
-        224
+        568
       ],
       "id": "fa37b2b4-444d-40bf-aad5-242cbc3a9d89",
       "name": "Loop Over Items"
@@ -97,34 +97,34 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        656,
-        192
+        704,
+        376
       ],
       "id": "4dfa7aae-23cc-49fe-a36c-a7bf1d4fa5e7",
       "name": "Normalize + classify"
     },
     {
       "parameters": {
-        "jsCode": "const data = $input.first().json;\n\nconst docText = [\n  data.title ? `Title: ${data.title}` : \"\",\n  data.description ? `Description: ${data.description}` : \"\",\n  data.category_path ? `Category: ${data.category_path}` : \"\",\n  data.text_body ? `Body: ${data.text_body}` : \"\"\n].filter(Boolean).join(\"\\n\\n\");\n\n// naive chunk by chars (replace with tokenizer if you prefer)\nconst chunkSize = 1800; // ~300-600 tokens depending on language\nconst chunks = [];\nfor (let i = 0; i < docText.length; i += chunkSize) {\n  chunks.push(docText.slice(i, i + chunkSize));\n}\n\nreturn chunks.map((text, idx) => ({\n  json: {\n    pageContent: text,\n    metadata: {\n      url: data.url,\n      page_type: data.page_type,\n      title: data.title,\n      language: data.language,\n      category_path: data.category_path,\n      breadcrumbs: data.breadcrumbs,\n      chunk_index: idx\n    }\n  }\n}));\n\n"
+        "jsCode": "const data = $input.first().json;\n\n// ---------------- Helpers ----------------\nconst asString = (v) => (v == null ? \"\" : String(v));\n\nconst fixMojibake = (s) => {\n  s = asString(s);\n  const looksBad =\n    s.includes(\"Ã\") || s.includes(\"â€™\") || s.includes(\"â€œ\") || s.includes(\"â€\") || s.includes(\"Â\");\n  if (!looksBad) return s;\n  return s\n    .replace(/â€“/g, \"–\")\n    .replace(/â€”/g, \"—\")\n    .replace(/â€œ/g, \"“\")\n    .replace(/â€/g, \"”\")\n    .replace(/â€™/g, \"’\")\n    .replace(/Â/g, \"\")\n    .replace(/Ã¡/g, \"á\")\n    .replace(/Ã©/g, \"é\")\n    .replace(/Ã­/g, \"í\")\n    .replace(/Ã³/g, \"ó\")\n    .replace(/Ãº/g, \"ú\")\n    .replace(/Ã±/g, \"ñ\")\n    .replace(/Ã/g, \"Á\")\n    .replace(/Ã‰/g, \"É\")\n    .replace(/Ã/g, \"Í\")\n    .replace(/Ã“/g, \"Ó\")\n    .replace(/Ãš/g, \"Ú\")\n    .replace(/Ã‘/g, \"Ñ\");\n};\n\nconst clean = (s) =>\n  fixMojibake(asString(s))\n    .replace(/\\u00a0/g, \" \")\n    .replace(/\\s+/g, \" \")\n    .trim();\n\nconst toArray = (v) => (Array.isArray(v) ? v : (v ? [v] : []));\n\nconst slugFromUrl = (url) => {\n  if (!url) return null;\n  const parts = asString(url).split(\"?\")[0].split(\"#\")[0].split(\"/\").filter(Boolean);\n  return parts.length ? parts[parts.length - 1] : null;\n};\n\nconst simpleHash = (str) => {\n  str = String(str || \"\");\n  let hash = 2166136261;\n  for (let i = 0; i < str.length; i++) {\n    hash ^= str.charCodeAt(i);\n    hash += (hash << 1) + (hash << 4) + (hash << 7) + (hash << 8) + (hash << 24);\n  }\n  return (\"00000000\" + (hash >>> 0).toString(16)).slice(-8);\n};\n\n// ---------------- Inputs ----------------\nconst url = data.url || null;\nconst title = clean(data.title) || null;\nconst description = clean(data.description) || null;\nconst category_path = clean(data.category_path) || null;\nconst language = data.language || \"es\";\nconst page_type = data.page_type || \"page\";\n\n// ---------------- Breadcrumbs (objects) ----------------\n// data.breadcrumbs is array of {name,url,position}\nconst breadcrumbs = toArray(data.breadcrumbs).filter(Boolean);\n\n// Names extracted (useful for search/classification)\nconst breadcrumb_names = breadcrumbs\n  .map(b => (b && typeof b === \"object\" ? clean(b.name) : clean(b)))\n  .filter(Boolean);\n\n// ---------------- doc_id / slug ----------------\nconst slug = data.slug || slugFromUrl(url);\nconst doc_id = data.doc_id || simpleHash(data.canonical_url || url || `${title || \"\"}|${slug || \"\"}`);\n\n// ---------------- Content kind classification (simple v1) ----------------\nconst haystack = clean(\n  [\n    page_type,\n    url,\n    title,\n    description,\n    category_path,\n    breadcrumb_names.join(\" \"),\n    data.text_body,\n  ]\n    .filter(Boolean)\n    .join(\" | \")\n).toLowerCase();\n\nconst classifyContentKind = () => {\n  // For page_chunk flow, page_type should NOT be product anyway,\n  // but we keep this guard just in case.\n  if (page_type === \"product\") return \"product_page\";\n\n  if (haystack.includes(\"envío\") || haystack.includes(\"envios\") || haystack.includes(\"shipping\") || haystack.includes(\"entrega\"))\n    return \"shipping\";\n  if (haystack.includes(\"devol\") || haystack.includes(\"returns\") || haystack.includes(\"reembolso\") || haystack.includes(\"cambio\"))\n    return \"returns\";\n  if (haystack.includes(\"pedido\") || haystack.includes(\"comprar\") || haystack.includes(\"checkout\") || haystack.includes(\"carrito\") || haystack.includes(\"ordering\"))\n    return \"ordering\";\n  if (haystack.includes(\"pago\") || haystack.includes(\"payment\") || haystack.includes(\"tarjeta\") || haystack.includes(\"bizum\") || haystack.includes(\"transferencia\"))\n    return \"payments\";\n  if (haystack.includes(\"garant\") || haystack.includes(\"warranty\")) return \"warranty\";\n  if (haystack.includes(\"contacto\") || haystack.includes(\"email\") || haystack.includes(\"tel\") || haystack.includes(\"whatsapp\") || haystack.includes(\"contact\"))\n    return \"contact\";\n  if (haystack.includes(\"legal\") || haystack.includes(\"privacidad\") || haystack.includes(\"cookies\") || haystack.includes(\"términos\") || haystack.includes(\"terminos\"))\n    return \"legal\";\n  if (haystack.includes(\"faq\") || haystack.includes(\"preguntas frecuentes\")) return \"faq\";\n  if (haystack.includes(\"quiénes somos\") || haystack.includes(\"quienes somos\") || haystack.includes(\"about\"))\n    return \"about\";\n  if (haystack.includes(\"graduación\") || haystack.includes(\"graduacion\") || haystack.includes(\"rx\") || haystack.includes(\"prescripción\") || haystack.includes(\"prescripcion\"))\n    return \"rx_info\";\n\n  return \"other\";\n};\n\nconst content_kind = data.content_kind || classifyContentKind();\nconst is_policy = [\"shipping\", \"returns\", \"payments\", \"warranty\", \"legal\"].includes(content_kind);\n\n// ---------------- Section heading (best-effort) ----------------\nconst section_heading =\n  clean(data.section_heading) ||\n  (content_kind === \"shipping\"\n    ? \"Envíos\"\n    : content_kind === \"returns\"\n    ? \"Devoluciones\"\n    : content_kind === \"ordering\"\n    ? \"Pedidos y compra\"\n    : content_kind === \"payments\"\n    ? \"Pagos\"\n    : content_kind === \"warranty\"\n    ? \"Garantía\"\n    : content_kind === \"contact\"\n    ? \"Contacto\"\n    : content_kind === \"legal\"\n    ? \"Legal\"\n    : content_kind === \"faq\"\n    ? \"Preguntas frecuentes\"\n    : content_kind === \"rx_info\"\n    ? \"Graduación (RX)\"\n    : title) ||\n  null;\n\nconst heading_path = toArray(data.heading_path).length\n  ? toArray(data.heading_path).map(clean).filter(Boolean)\n  : section_heading\n  ? [section_heading]\n  : [];\n\n// ---------------- Build cleaned base text ----------------\nconst body = clean(data.text_body);\nconst intro = description ? description : \"\";\nconst mainText = clean([intro, body].filter(Boolean).join(\"\\n\\n\"));\n\n// canonical document text (pre-chunk)\nconst docText = clean(\n  [\n    title ? `Título: ${title}` : null,\n    url ? `URL: ${url}` : null,\n    section_heading ? `Sección: ${section_heading}` : null,\n    category_path ? `Ruta: ${category_path}` : null,\n    mainText ? `Contenido: ${mainText}` : null,\n  ]\n    .filter(Boolean)\n    .join(\"\\n\")\n);\n\n// ---------------- Chunking ----------------\nconst chunkSize = 1800; // chars\nconst chunks = [];\nfor (let i = 0; i < docText.length; i += chunkSize) {\n  chunks.push(docText.slice(i, i + chunkSize));\n}\n\n// ---------------- Output records ----------------\nreturn chunks.map((chunkText, idx) => {\n  const chunk_id = `${doc_id}#c${String(idx).padStart(3, \"0\")}`;\n\n  const canonical_text = clean(\n    [\n      title ? `Título: ${title}` : null,\n      section_heading ? `Sección: ${section_heading}` : null,\n      url ? `URL: ${url}` : null,\n      `Contenido: ${chunkText}`,\n    ]\n      .filter(Boolean)\n      .join(\"\\n\")\n  );\n\n  return {\n    json: {\n      pageContent: canonical_text,\n      metadata: {\n        type: \"page_chunk\",\n        source: \"website\",\n\n        doc_id,\n        chunk_id,\n        chunk_index: idx,\n        chunk_total: chunks.length,\n\n        url,\n        slug,\n        title,\n        language,\n\n        category_path,\n        breadcrumbs,         // keep objects as-is\n        breadcrumb_names,    // add normalized names (string[])\n\n        section_heading,\n        heading_path,\n        content_kind,\n        is_policy,\n\n        page_type,\n\n        updated_at: data.updated_at || new Date().toISOString(),\n      },\n    },\n  };\n});\n"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        816,
-        -48
+        1184,
+        -16
       ],
       "id": "122dba56-24f7-42c1-b0f8-5ab9287ec449",
       "name": "Chunk page text"
     },
     {
       "parameters": {
-        "jsCode": "const data = $input.first().json;\nconst p = data.product_jsonld;\n\nif (!p) {\n  // no output if not a product\n  return [];\n}\n\nconst offer = Array.isArray(p.offers) ? p.offers[0] : null;\nconst priceSpec = offer?.priceSpecification?.[0] || {};\n\nconst productText = [\n  p.name ? `Product: ${p.name}` : \"\",\n  p.description ? `Description: ${p.description}` : \"\",\n  p.sku ? `SKU: ${p.sku}` : \"\",\n  priceSpec.price ? `Price: ${priceSpec.price} ${priceSpec.priceCurrency || \"\"}` : \"\",\n  data.category_path ? `Category: ${data.category_path}` : \"\"\n].filter(Boolean).join(\"\\n\\n\");\n\nreturn [{\n  json: {\n    pageContent: productText,\n    metadata: {\n      url: data.url,\n      product_name: p.name,\n      sku: String(p.sku || \"\"),\n      price: priceSpec.price ? parseFloat(priceSpec.price) : null,\n      currency: priceSpec.priceCurrency || null,\n      availability: offer?.availability || null,\n      category_path: data.category_path,\n      image_url: p.image || null,\n      rating: p.aggregateRating?.ratingValue ? parseFloat(p.aggregateRating.ratingValue) : null,\n      review_count: p.aggregateRating?.reviewCount ? parseInt(p.aggregateRating.reviewCount, 10) : null\n    }\n  }\n}];\n"
+        "jsCode": "const data = $input.first().json;\n\n// IMPORTANT: in your page JSON, Product JSON-LD is inside metadata.jsonLd[0].@graph\n// If you already pre-extract it into data.product_jsonld, keep using that.\n// Otherwise, use the fallback extractor below.\nlet p = data.product_jsonld;\n\n// Fallback extractor (safe) if your pipeline stores full page JSON like the file you shared:\nif (!p && data.metadata?.jsonLd?.length) {\n  for (const block of data.metadata.jsonLd) {\n    const graph = block?.[\"@graph\"];\n    if (Array.isArray(graph)) {\n      const prod = graph.find(x => (x?.[\"@type\"] === \"Product\"));\n      if (prod) { p = prod; break; }\n    }\n  }\n}\n\nif (!p) return [];\n\n// ---------------- Helpers ----------------\nconst toArray = (v) => (Array.isArray(v) ? v : (v ? [v] : []));\nconst asString = (v) => (v == null ? \"\" : String(v));\nconst safeFloat = (v) => {\n  const n = parseFloat(v);\n  return Number.isFinite(n) ? n : null;\n};\nconst safeInt = (v) => {\n  const n = parseInt(v, 10);\n  return Number.isFinite(n) ? n : null;\n};\nconst pickFirstOffer = (offers) => {\n  if (!offers) return null;\n  if (Array.isArray(offers)) return offers[0] || null;\n  return offers;\n};\nconst normalizeAvailability = (raw) => {\n  const s = (raw || \"\").toLowerCase();\n  if (s.includes(\"instock\")) return \"in_stock\";\n  if (s.includes(\"outofstock\")) return \"out_of_stock\";\n  if (s.includes(\"preorder\")) return \"preorder\";\n  if (s.includes(\"discontinued\")) return \"discontinued\";\n  return raw ? \"unknown\" : null;\n};\nconst slugFromUrl = (url) => {\n  if (!url) return null;\n  const parts = String(url).split(\"?\")[0].split(\"#\")[0].split(\"/\").filter(Boolean);\n  return parts.length ? parts[parts.length - 1] : null;\n};\n\n// Grab og:description if present (your file has metadata.openGraph[])\nconst getOgDescription = () => {\n  const og = data.metadata?.openGraph;\n  if (!Array.isArray(og)) return null;\n  const d = og.find(x => x?.property === \"og:description\")?.content;\n  return d ? asString(d) : null;\n};\n\n// -------- RX extraction from text ----------\nconst stripHtml = (s) => asString(s).replace(/<[^>]+>/g, \" \");\nconst normalizeText = (s) =>\n  stripHtml(s)\n    .replace(/\\s+/g, \" \")\n    .trim()\n    .toLowerCase();\n\nconst detectRxTypeFromText = (textNorm) => {\n  if (!textNorm) return null;\n\n  // Spanish signals\n  if (textNorm.includes(\"graduación directa\") || textNorm.includes(\"graduacion directa\")) return \"direct\";\n\n  // Common phrasing for clip/insert (adjust to your site’s wording)\n  if (textNorm.includes(\"clip óptico\") || textNorm.includes(\"clip optico\") || textNorm.includes(\"clip rx\")) return \"optical_clip\";\n  if (textNorm.includes(\"insert\") && (textNorm.includes(\"gradu\") || textNorm.includes(\"rx\"))) return \"insert_clip\";\n\n  // Generic RX signal\n  if (textNorm.includes(\"graduación\") || textNorm.includes(\"graduacion\") || textNorm.includes(\"rx\")) return \"unknown\";\n\n  return null;\n};\n\nconst computeRxFromSources = () => {\n  const sources = [\n    p.description,\n    data.text,                 // your page text field\n    getOgDescription(),         // og:description HTML\n  ].filter(Boolean);\n\n  const merged = sources.map(normalizeText).join(\" | \");\n  const rx_type = detectRxTypeFromText(merged);\n  const rx_supported = rx_type ? true : null; // conservative: only true if we detect signals\n  return { rx_supported, rx_type, rx_source_text: merged || null };\n};\n\n// ---------------- Extract offer/price ----------------\nconst offer = pickFirstOffer(p.offers);\n\nconst priceSpec =\n  (offer?.priceSpecification && Array.isArray(offer.priceSpecification) && offer.priceSpecification[0]) ||\n  offer?.priceSpecification ||\n  {};\n\nconst price = safeFloat(priceSpec?.price ?? offer?.price ?? null);\nconst currencyRaw = priceSpec?.priceCurrency ?? offer?.priceCurrency ?? null;\nconst currency = (price != null) ? currencyRaw : null;\n\n// ---------------- Identity ----------------\nconst url = data.url || p.url || null;\nconst name = p.name || null;\nconst sku = p.sku != null ? asString(p.sku) : \"\";\nconst brand =\n  (typeof p.brand === \"string\" ? p.brand : (p.brand?.name || null)) ||\n  null;\n\n// ---------------- Breadcrumbs from JSON-LD (better than data.category_path if available) ----------------\nlet breadcrumbs = [];\nif (data.metadata?.jsonLd?.length) {\n  for (const block of data.metadata.jsonLd) {\n    const graph = block?.[\"@graph\"];\n    if (!Array.isArray(graph)) continue;\n    const bc = graph.find(x => x?.[\"@type\"] === \"BreadcrumbList\");\n    if (bc?.itemListElement?.length) {\n      breadcrumbs = bc.itemListElement\n        .map(x => x?.item?.name)\n        .filter(Boolean)\n        .map(asString);\n      break;\n    }\n  }\n}\n\n// Fallback to category_path if breadcrumbs empty\nconst category_path = data.category_path || (breadcrumbs.length ? breadcrumbs.join(\" > \") : null);\nif (!breadcrumbs.length && category_path) {\n  breadcrumbs = asString(category_path).split(\">\").map(s => s.trim()).filter(Boolean);\n}\n\nconst category_root = breadcrumbs.length ? breadcrumbs[0] : null;\nconst category = breadcrumbs.length >= 2 ? breadcrumbs[breadcrumbs.length - 2] : (breadcrumbs[0] || null);\nconst category_leaf = breadcrumbs.length ? breadcrumbs[breadcrumbs.length - 1] : null;\n\n// ---------------- Slug / product_id ----------------\nconst slug = data.slug || slugFromUrl(url);\nconst product_id = data.product_id || slug || sku || url;\n\n// ---------------- Images ----------------\nconst images = toArray(p.image).filter(Boolean);\nconst image_url = images[0] || null;\n\n// ---------------- Ratings ----------------\nconst rating = p.aggregateRating?.ratingValue ? safeFloat(p.aggregateRating.ratingValue) : null;\nconst review_count = p.aggregateRating?.reviewCount ? safeInt(p.aggregateRating.reviewCount) : null;\n\n// ---------------- RX fields ----------------\nconst { rx_supported, rx_type, rx_source_text } = computeRxFromSources();\n\n// ---------------- Sport/use-case (simple v1) ----------------\nconst sport = [];\nconst descNorm = normalizeText(p.description || \"\");\nconst bcNorm = normalizeText(breadcrumbs.join(\" \"));\n\n// Add sports based on breadcrumb/category/description keywords\nif (bcNorm.includes(\"golf\") || descNorm.includes(\"golf\")) sport.push(\"golf\");\nif (bcNorm.includes(\"pádel\") || bcNorm.includes(\"padel\") || descNorm.includes(\"pádel\") || descNorm.includes(\"padel\")) sport.push(\"padel\");\n\n// ---------------- Canonical text for embedding ----------------\nconst canonicalTextParts = [\n  name ? `Nombre: ${name}` : null,\n  brand ? `Marca: ${brand}` : null,\n  sku ? `SKU: ${sku}` : null,\n  category_path ? `Categoría: ${category_path}` : null,\n  p.description ? `Descripción: ${stripHtml(p.description)}` : null,\n  (price != null) ? `Precio: ${price} ${currency || \"\"}`.trim() : null,\n  offer?.availability ? `Disponibilidad: ${normalizeAvailability(offer.availability)}` : null,\n  (rx_supported != null) ? `Graduable (RX): ${rx_supported ? \"sí\" : \"no\"}` : null,\n  rx_type ? `Tipo RX: ${rx_type}` : null,\n  sport.length ? `Deporte/uso: ${sport.join(\", \")}` : null,\n  url ? `URL: ${url}` : null,\n].filter(Boolean);\n\nconst canonical_text = canonicalTextParts.join(\"\\n\");\n\n// ---------------- Final record ----------------\nreturn [{\n  json: {\n    pageContent: canonical_text,\n    metadata: {\n      type: \"product\",\n      source: \"website\",\n      lang: data.lang || data.metadata?.languageCode || \"es\",\n\n      url,\n      slug,\n      product_id,\n\n      name,\n      brand,\n\n      breadcrumbs,\n      category_root,\n      category,\n      category_leaf,\n      category_path,\n\n      sku,\n\n      price,\n      currency,\n      price_text: (price != null && currency) ? `${price} ${currency}` : null,\n\n      availability: normalizeAvailability(offer?.availability),\n\n      images,\n      image_url,\n\n      rating,\n      review_count,\n\n      // New product Q&A fields populated from text content\n      rx_supported,\n      rx_type,\n\n      // Optional debugging (keep for a while, then remove)\n      rx_source_text: rx_source_text ? rx_source_text.slice(0, 500) : null,\n\n      sport,\n\n      updated_at: data.updated_at || new Date().toISOString(),\n    }\n  }\n}];\n"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        816,
-        416
+        1184,
+        400
       ],
       "id": "18b78e57-6a2a-4628-bf5b-6cebda964b66",
       "name": "Build product record"
@@ -136,8 +136,8 @@
       "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
       "typeVersion": 1.2,
       "position": [
-        1008,
-        128
+        1424,
+        208
       ],
       "id": "9d58866b-ff8c-4e25-a005-31ac8c7594c5",
       "name": "Embeddings OpenAI",
@@ -164,8 +164,8 @@
       "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
       "typeVersion": 1.1,
       "position": [
-        1168,
-        128
+        1552,
+        208
       ],
       "id": "c8ebec65-3e70-45cf-8ecf-410de9e63dd7",
       "name": "Default Data Loader"
@@ -177,8 +177,8 @@
       "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
       "typeVersion": 1.2,
       "position": [
-        1040,
-        576
+        1384,
+        864
       ],
       "id": "1c157847-4960-4e96-9535-f79c01e1bbd7",
       "name": "Embeddings OpenAI1",
@@ -206,8 +206,8 @@
       "type": "@n8n/n8n-nodes-langchain.vectorStoreMilvus",
       "typeVersion": 1.3,
       "position": [
-        1024,
-        -48
+        1408,
+        -16
       ],
       "id": "1f32f4e7-df13-4978-82c7-0d4b8159e083",
       "name": "Milvus Vector Store - page chunks",
@@ -235,8 +235,8 @@
       "type": "@n8n/n8n-nodes-langchain.vectorStoreMilvus",
       "typeVersion": 1.3,
       "position": [
-        1040,
-        384
+        1376,
+        640
       ],
       "id": "31e69ed3-7e4b-4d39-b6dd-18b4f6425098",
       "name": "Milvus Vector Store - products",
@@ -252,8 +252,8 @@
       "type": "n8n-nodes-base.merge",
       "typeVersion": 3.2,
       "position": [
-        1568,
-        240
+        1936,
+        528
       ],
       "id": "81105ede-2fc5-4ed1-a195-8c2fb365e68b",
       "name": "Merge"
@@ -274,14 +274,124 @@
       "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
       "typeVersion": 1.1,
       "position": [
-        1216,
-        560
+        1512,
+        864
       ],
       "id": "f1e01a7f-8061-4826-8876-e2ff2411b737",
       "name": "Default Data Loader2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "f52879ac-19b2-4c02-9265-0c1e5c385cc2",
+              "leftValue": "={{ $json.product_jsonld }}",
+              "rightValue": "",
+              "operator": {
+                "type": "object",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        928,
+        376
+      ],
+      "id": "a97a9388-1b60-48fa-914e-3b85017178c0",
+      "name": "If"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1088,
+        640
+      ],
+      "id": "99e6a540-cbcc-4b4d-a6e3-7769869941b1",
+      "name": "No Operation, do nothing"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        256,
+        568
+      ],
+      "id": "f66f13c9-ca1f-409e-a994-9484c62d1336",
+      "name": "No Operation, do nothing1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "f52879ac-19b2-4c02-9265-0c1e5c385cc2",
+              "leftValue": "={{ $json.product_jsonld }}",
+              "rightValue": "\"product\"",
+              "operator": {
+                "type": "object",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        912,
+        224
+      ],
+      "id": "36399037-4bb4-474f-92cb-694efe2454eb",
+      "name": "If1"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1200,
+        208
+      ],
+      "id": "d5ca6090-c556-4a39-bfeb-4fd77efbed15",
+      "name": "No Operation, do nothing2"
     }
   ],
-  "pinData": {},
+  "pinData": {
+    "When clicking ‘Execute workflow’": [
+      {
+        "json": {},
+        "pairedItem": {
+          "item": 0
+        }
+      }
+    ]
+  },
   "connections": {
     "When clicking ‘Execute workflow’": {
       "main": [
@@ -329,7 +439,13 @@
     },
     "Loop Over Items": {
       "main": [
-        [],
+        [
+          {
+            "node": "No Operation, do nothing1",
+            "type": "main",
+            "index": 0
+          }
+        ],
         [
           {
             "node": "Download file",
@@ -343,12 +459,7 @@
       "main": [
         [
           {
-            "node": "Chunk page text",
-            "type": "main",
-            "index": 0
-          },
-          {
-            "node": "Build product record",
+            "node": "If1",
             "type": "main",
             "index": 0
           }
@@ -414,7 +525,7 @@
       "main": [
         [
           {
-            "node": "Merge",
+            "node": "Loop Over Items",
             "type": "main",
             "index": 0
           }
@@ -423,24 +534,12 @@
     },
     "Milvus Vector Store - products": {
       "main": [
-        [
-          {
-            "node": "Merge",
-            "type": "main",
-            "index": 1
-          }
-        ]
+        []
       ]
     },
     "Merge": {
       "main": [
-        [
-          {
-            "node": "Loop Over Items",
-            "type": "main",
-            "index": 0
-          }
-        ]
+        []
       ]
     },
     "Default Data Loader2": {
@@ -453,13 +552,65 @@
           }
         ]
       ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Build product record",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "No Operation, do nothing": {
+      "main": [
+        []
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "No Operation, do nothing2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Chunk page text",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "No Operation, do nothing2": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": false,
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "eda2a3b2-5b8e-4031-9e9f-b325a53c4ac0",
+  "versionId": "a683f217-af35-4453-b676-8524dce37ded",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "ecd8d3de9f59e2be89b94e08df5bf5d6a50460a3fa5423ef7b53a6a6762ad211"

@@ -1,0 +1,236 @@
+{
+  "name": "Test_addictive_Vector_Database",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -528,
+        -208
+      ],
+      "id": "1a189a1b-12a7-4534-983f-dd9dfe0d6cf9",
+      "name": "When chat message received",
+      "webhookId": "7dff1db3-7e05-4a33-9521-d1cdf5caa1a3"
+    },
+    {
+      "parameters": {
+        "options": {
+          "systemMessage": "## Identidad\n\nEres un **AI Agent de atención al cliente de una tienda óptica online**.\n\nTu función es responder preguntas de los usuarios sobre el contenido del sitio web de la tienda.\n\n---\n\n## Tools disponibles\n\nDispones de dos herramientas:\n\n1. **General Information**  \n   Úsala para responder preguntas generales sobre:\n   - la tienda\n   - envíos\n   - devoluciones\n   - pedidos\n   - procesos\n   - políticas\n   - catálogos\n   - tarifas\n   - información corporativa\n\n2. **Products**  \n   Úsala para responder preguntas específicas sobre:\n   - productos\n   - modelos de gafas\n   - lentes\n   - repuestos\n   - características\n   - precios\n   - disponibilidad\n   - compatibilidades\n   - tiempos de fabricación\n\nDebes usar la herramienta adecuada según el tipo de pregunta.\n\n---\n\n## Reglas básicas\n\n- Responde siempre en **español**.\n- Sé claro, breve y útil.\n- Usa únicamente la información obtenida a través de las herramientas.\n- No inventes datos.\n- Si no encuentras la información, dilo claramente.\n\nEjemplo:\n\n> “No encuentro esa información en el sitio web en este momento.”\n\n---\n\n## Comportamiento\n\n- Tono profesional y cercano.\n- Si la pregunta es ambigua, pide una sola aclaración.\n- No menciones detalles técnicos internos ni herramientas en la respuesta al usuario.\n\n---\n\n## Límites\n\n- No des consejos médicos.\n- No realices diagnósticos.\n- Para temas médicos, recomienda consultar a un profesional de la visión.\n\n---\n\n## Objetivo\n\nAyudar al usuario a:\n\n- encontrar información\n- conocer productos\n- entender procesos de compra\n- resolver dudas comunes"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3,
+      "position": [
+        -336,
+        -208
+      ],
+      "id": "09440614-54ed-4b8e-80b8-367913e389cb",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "gpt-4o-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        -592,
+        0
+      ],
+      "id": "71e20166-1dbf-4bff-aeed-023b0eb4e7a6",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "jk2tMKMrN3sjNQks",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -336,
+        160
+      ],
+      "id": "ee88b6af-10ae-49e5-b998-3c5bdc4aeaf9",
+      "name": "Embeddings OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "jk2tMKMrN3sjNQks",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -16,
+        144
+      ],
+      "id": "0dd40090-f12d-41b3-a440-6d23fe215ad3",
+      "name": "Embeddings OpenAI1",
+      "credentials": {
+        "openAiApi": {
+          "id": "jk2tMKMrN3sjNQks",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "retrieve-as-tool",
+        "toolDescription": "This vector store contains product records from an optical store website.\n\nEach record represents a single product (e.g. glasses, lenses, accessories, spare parts) and includes:\n\n- A canonical text representation used for semantic search (product name, category, description, price, availability, RX information, usage/sport, and URL).\n- Structured metadata fields such as:\n  - product name, SKU, slug, product_id\n  - category and breadcrumbs\n  - price and currency\n  - availability\n  - images\n  - RX support and RX type (direct, optical clip, insert clip)\n  - lead time (when available)\n  - sport / usage (e.g. padel, golf)\n\nThis store must be used to answer user questions about specific products or product-related information, such as:\n\n- Product existence and identification\n- Features and specifications\n- RX / prescription compatibility\n- Prices and availability\n- Images and models\n- Delivery time and stock\n- Product comparison\n\nWhen a user mentions a specific product name or asks about product details, this store should always be queried first.\n",
+        "milvusCollection": {
+          "__rl": true,
+          "value": "products",
+          "mode": "list",
+          "cachedResultName": "products"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreMilvus",
+      "typeVersion": 1.3,
+      "position": [
+        -16,
+        -32
+      ],
+      "id": "171a1387-b415-4886-899c-1c0c235e7190",
+      "name": "Products",
+      "credentials": {
+        "milvusApi": {
+          "id": "eD5Jd5dwgjaWZWjl",
+          "name": "Milvus account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "retrieve-as-tool",
+        "toolDescription": "This vector store contains general informational content from the optical store website.\n\nEach record represents a chunk of a non-product page (or general informational section) such as:\n\n- Shipping and delivery policies\n- Returns and refunds\n- How to place orders\n- Payment methods\n- Warranty and legal information\n- Prescription (RX) process and requirements\n- Contact and customer support information\n- FAQs and company information\n\nEach chunk includes structured metadata such as page URL, title, section heading, content category (shipping, returns, ordering, etc.), language, and breadcrumbs.\n\nThis store must be used to answer general questions about the website, store policies, processes, and customer support.\n\nIt should NOT be used for questions about specific products or product models.\n",
+        "milvusCollection": {
+          "__rl": true,
+          "value": "page_chunks",
+          "mode": "list",
+          "cachedResultName": "page_chunks"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreMilvus",
+      "typeVersion": 1.3,
+      "position": [
+        -368,
+        -16
+      ],
+      "id": "8fe3a1b3-c2ec-491a-8cba-90e3aa655554",
+      "name": "General Information",
+      "credentials": {
+        "milvusApi": {
+          "id": "eD5Jd5dwgjaWZWjl",
+          "name": "Milvus account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI": {
+      "ai_embedding": [
+        [
+          {
+            "node": "General Information",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI1": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Products",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Products": {
+      "ai_vectorStore": [
+        []
+      ],
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "General Information": {
+      "ai_vectorStore": [
+        []
+      ],
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "f91cabcf-d324-44bb-a242-f61fe354c2fb",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "ecd8d3de9f59e2be89b94e08df5bf5d6a50460a3fa5423ef7b53a6a6762ad211"
+  },
+  "id": "o2V1fwze33ulsRDg",
+  "tags": []
+}

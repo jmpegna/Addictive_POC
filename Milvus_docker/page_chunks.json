@@ -93,7 +93,7 @@
         "type_params": [
           {
             "key": "max_length",
-            "value": "1024"
+            "value": "4096"
           }
         ],
         "index_params": [],
@@ -114,17 +114,17 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "1024",
+        "max_length": "4096",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 1024
+        "maxLength": 4096
       },
       {
         "type_params": [
           {
             "key": "max_length",
-            "value": "1024"
+            "value": "4096"
           }
         ],
         "index_params": [],
@@ -145,11 +145,11 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "1012",
+        "max_length": "4096",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 1024
+        "maxLength": 4096
       },
       {
         "type_params": [],
@@ -250,7 +250,7 @@
               }
             ],
             "index_name": "langchain_vector",
-            "indexID": "463616805575674301",
+            "indexID": "463616805576850094",
             "field_name": "langchain_vector",
             "indexed_rows": "0",
             "total_rows": "0",
@@ -416,7 +416,7 @@
         "type_params": [
           {
             "key": "max_length",
-            "value": "1024"
+            "value": "4096"
           }
         ],
         "index_params": [],
@@ -437,17 +437,17 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "1024",
+        "max_length": "4096",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 1024
+        "maxLength": 4096
       },
       {
         "type_params": [
           {
             "key": "max_length",
-            "value": "1024"
+            "value": "4096"
           }
         ],
         "index_params": [],
@@ -468,11 +468,11 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "1024",
+        "max_length": "4096",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 1024
+        "maxLength": 4096
       },
       {
         "type_params": [],
@@ -575,7 +575,7 @@
               }
             ],
             "index_name": "langchain_vector",
-            "indexID": "463616805575674301",
+            "indexID": "463616805576850094",
             "field_name": "langchain_vector",
             "indexed_rows": "0",
             "total_rows": "0",
@@ -615,12 +615,12 @@
     "dynamicFields": []
   },
   "rowCount": 0,
-  "createdTime": 1768700726599,
-  "update_timestamp": 1768700726599,
+  "createdTime": 1768775897699,
+  "update_timestamp": 1768775897699,
   "aliases": [],
   "description": "",
   "autoID": true,
-  "id": "463616805575674296",
+  "id": "463616805576850089",
   "loadedPercentage": -1,
   "consistency_level": "Bounded",
   "replicas": [],
