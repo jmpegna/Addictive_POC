@@ -6,7 +6,7 @@
         "type_params": [
           {
             "key": "max_length",
-            "value": "16"
+            "value": "10"
           }
         ],
         "index_params": [],
@@ -27,17 +27,17 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "16",
+        "max_length": "10",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 16
+        "maxLength": 10
       },
       {
         "type_params": [
           {
             "key": "max_length",
-            "value": "16"
+            "value": "10"
           }
         ],
         "index_params": [],
@@ -58,46 +58,21 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "16",
+        "max_length": "10",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 16
-      },
-      {
-        "type_params": [],
-        "index_params": [],
-        "fieldID": "102",
-        "name": "line",
-        "is_primary_key": false,
-        "description": "Metadata Number field",
-        "data_type": "Float",
-        "autoID": false,
-        "state": "FieldCreated",
-        "element_type": "None",
-        "default_value": null,
-        "is_dynamic": false,
-        "is_partition_key": false,
-        "is_clustering_key": false,
-        "nullable": false,
-        "is_function_output": false,
-        "external_field": "",
-        "dataType": 10,
-        "_placeholderType": 10,
-        "indexes": [],
-        "dimension": -1,
-        "maxCapacity": -1,
-        "maxLength": -1
+        "maxLength": 10
       },
       {
         "type_params": [
           {
             "key": "max_length",
-            "value": "4096"
+            "value": "16384"
           }
         ],
         "index_params": [],
-        "fieldID": "103",
+        "fieldID": "102",
         "name": "loc",
         "is_primary_key": false,
         "description": "Metadata JSON field",
@@ -114,21 +89,21 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "4096",
+        "max_length": "16384",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 4096
+        "maxLength": 16384
       },
       {
         "type_params": [
           {
             "key": "max_length",
-            "value": "4096"
+            "value": "16384"
           }
         ],
         "index_params": [],
-        "fieldID": "104",
+        "fieldID": "103",
         "name": "metadata",
         "is_primary_key": false,
         "description": "Metadata JSON field",
@@ -145,16 +120,16 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "4096",
+        "max_length": "16384",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 4096
+        "maxLength": 16384
       },
       {
         "type_params": [],
         "index_params": [],
-        "fieldID": "105",
+        "fieldID": "104",
         "name": "langchain_primaryid",
         "is_primary_key": true,
         "description": "Primary key",
@@ -180,11 +155,11 @@
         "type_params": [
           {
             "key": "max_length",
-            "value": "4096"
+            "value": "16384"
           }
         ],
         "index_params": [],
-        "fieldID": "106",
+        "fieldID": "105",
         "name": "langchain_text",
         "is_primary_key": false,
         "description": "Text field",
@@ -201,11 +176,11 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "4096",
+        "max_length": "16384",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 4096
+        "maxLength": 16384
       },
       {
         "type_params": [
@@ -215,7 +190,7 @@
           }
         ],
         "index_params": [],
-        "fieldID": "107",
+        "fieldID": "106",
         "name": "langchain_vector",
         "is_primary_key": false,
         "description": "Vector field",
@@ -250,7 +225,7 @@
               }
             ],
             "index_name": "langchain_vector",
-            "indexID": "463616805576850094",
+            "indexID": "463616805580342347",
             "field_name": "langchain_vector",
             "indexed_rows": "0",
             "total_rows": "0",
@@ -300,7 +275,7 @@
     "primaryField": {
       "type_params": [],
       "index_params": [],
-      "fieldID": "105",
+      "fieldID": "104",
       "name": "langchain_primaryid",
       "is_primary_key": true,
       "description": "Primary key",
@@ -329,7 +304,7 @@
         "type_params": [
           {
             "key": "max_length",
-            "value": "16"
+            "value": "10"
           }
         ],
         "index_params": [],
@@ -350,17 +325,17 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "16",
+        "max_length": "10",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 16
+        "maxLength": 10
       },
       {
         "type_params": [
           {
             "key": "max_length",
-            "value": "16"
+            "value": "10"
           }
         ],
         "index_params": [],
@@ -381,46 +356,21 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "16",
+        "max_length": "10",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 16
-      },
-      {
-        "type_params": [],
-        "index_params": [],
-        "fieldID": "102",
-        "name": "line",
-        "is_primary_key": false,
-        "description": "Metadata Number field",
-        "data_type": "Float",
-        "autoID": false,
-        "state": "FieldCreated",
-        "element_type": "None",
-        "default_value": null,
-        "is_dynamic": false,
-        "is_partition_key": false,
-        "is_clustering_key": false,
-        "nullable": false,
-        "is_function_output": false,
-        "external_field": "",
-        "dataType": 10,
-        "_placeholderType": 10,
-        "indexes": [],
-        "dimension": -1,
-        "maxCapacity": -1,
-        "maxLength": -1
+        "maxLength": 10
       },
       {
         "type_params": [
           {
             "key": "max_length",
-            "value": "4096"
+            "value": "16384"
           }
         ],
         "index_params": [],
-        "fieldID": "103",
+        "fieldID": "102",
         "name": "loc",
         "is_primary_key": false,
         "description": "Metadata JSON field",
@@ -437,21 +387,21 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "4096",
+        "max_length": "16384",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 4096
+        "maxLength": 16384
       },
       {
         "type_params": [
           {
             "key": "max_length",
-            "value": "4096"
+            "value": "16384"
           }
         ],
         "index_params": [],
-        "fieldID": "104",
+        "fieldID": "103",
         "name": "metadata",
         "is_primary_key": false,
         "description": "Metadata JSON field",
@@ -468,16 +418,16 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "4096",
+        "max_length": "16384",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 4096
+        "maxLength": 16384
       },
       {
         "type_params": [],
         "index_params": [],
-        "fieldID": "105",
+        "fieldID": "104",
         "name": "langchain_primaryid",
         "is_primary_key": true,
         "description": "Primary key",
@@ -503,11 +453,11 @@
         "type_params": [
           {
             "key": "max_length",
-            "value": "4096"
+            "value": "16384"
           }
         ],
         "index_params": [],
-        "fieldID": "106",
+        "fieldID": "105",
         "name": "langchain_text",
         "is_primary_key": false,
         "description": "Text field",
@@ -524,11 +474,11 @@
         "external_field": "",
         "dataType": 21,
         "_placeholderType": 21,
-        "max_length": "4096",
+        "max_length": "16384",
         "indexes": [],
         "dimension": -1,
         "maxCapacity": -1,
-        "maxLength": 4096
+        "maxLength": 16384
       }
     ],
     "vectorFields": [
@@ -540,7 +490,7 @@
           }
         ],
         "index_params": [],
-        "fieldID": "107",
+        "fieldID": "106",
         "name": "langchain_vector",
         "is_primary_key": false,
         "description": "Vector field",
@@ -575,7 +525,7 @@
               }
             ],
             "index_name": "langchain_vector",
-            "indexID": "463616805576850094",
+            "indexID": "463616805580342347",
             "field_name": "langchain_vector",
             "indexed_rows": "0",
             "total_rows": "0",
@@ -615,17 +565,38 @@
     "dynamicFields": []
   },
   "rowCount": 0,
-  "createdTime": 1768775897699,
-  "update_timestamp": 1768775897699,
+  "createdTime": 1769384203599,
+  "update_timestamp": 1769384203599,
   "aliases": [],
   "description": "",
   "autoID": true,
-  "id": "463616805576850089",
-  "loadedPercentage": -1,
+  "id": "463616805580342342",
+  "loadedPercentage": 100,
   "consistency_level": "Bounded",
-  "replicas": [],
-  "loaded": false,
-  "status": "unloaded",
+  "replicas": [
+    {
+      "partition_ids": [],
+      "shard_replicas": [
+        {
+          "node_ids": [
+            "1"
+          ],
+          "leaderID": "1",
+          "leader_addr": "10.0.3.28:21123",
+          "dm_channel_name": "by-dev-rootcoord-dml_12_463616805580342342v0"
+        }
+      ],
+      "node_ids": [
+        "1"
+      ],
+      "num_outbound_node": {},
+      "replicaID": "463616805933154321",
+      "collectionID": "463616805580342342",
+      "resource_group_name": "__default_resource_group"
+    }
+  ],
+  "loaded": true,
+  "status": "loaded",
   "properties": [],
   "shards_num": 1,
   "_schemaVersion": 1
